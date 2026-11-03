@@ -16,7 +16,7 @@ companies:
   - {name: Société Générale, sector: finance}
   - {name: Mistral AI, sector: tech, slugs: [mistral]}
   - {name: Doctolib, sector: tech, slugs: [doctolib]}
-  - {name: Hugging Face, sector: tech, slugs: [huggingface]}
+  - {name: Datadog, sector: tech}
   - {name: Dataiku, sector: tech, slugs: [dataiku]}
   - {name: Alan, sector: tech, slugs: [alan]}
   - {name: Criteo, sector: tech, slugs: [criteo]}
@@ -25,19 +25,19 @@ companies:
   - {name: Deutsche Bank, sector: finance, ats: workday, host: db.wd3.myworkdayjobs.com, tenant: db, site: DBWebsite}
   - {name: Allianz, sector: finance}
   - {name: SAP, sector: tech}
-  - {name: DeepL, sector: tech, slugs: [deepl]}
+  - {name: HubSpot, sector: tech}
   - {name: Celonis, sector: tech, slugs: [celonis]}
+  - {name: Algolia, sector: tech}
+  - {name: Contentsquare, sector: tech}
   - {name: Helsing, sector: tech, slugs: [helsing]}
-  - {name: Personio, sector: tech, slugs: [personio]}
-  - {name: Aleph Alpha, sector: tech, slugs: [alephalpha, aleph-alpha]}
   # Suiza
   - {name: Roche, sector: medtech}
   - {name: Novartis, sector: medtech, ats: workday, host: novartis.wd3.myworkdayjobs.com, tenant: novartis, site: Novartis_Careers}
   - {name: Straumann, sector: medtech, slugs: [straumann]}
   - {name: UBS, sector: finance}
   - {name: Julius Baer, sector: finance}
-  - {name: Sensirion, sector: tech, slugs: [sensirion]}
-  - {name: Scandit, sector: tech, slugs: [scandit]}
+  - {name: N26, sector: finance}
+  - {name: GetYourGuide, sector: tech}
   # Irlanda
   - {name: Medtronic, sector: medtech, ats: workday, host: medtronic.wd1.myworkdayjobs.com, tenant: medtronic, site: MedtronicCareers}
   - {name: Boston Scientific, sector: medtech}
@@ -49,5 +49,5 @@ companies:
   - {name: BGL BNP Paribas, sector: finance}
   - {name: Clearstream, sector: finance}
   - {name: European Investment Bank, sector: finance}
-  - {name: SES, sector: tech}
+  - {name: Back Market, sector: tech}
   - {name: PayPal, sector: tech}
