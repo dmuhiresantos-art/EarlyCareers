@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Early careers in Europe: stages, alternances, junior roles</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#ECEFF4; --surface:#FFFFFF; --ink:#0F172A; --muted:#5A6478; --line:#D3D9E3; --accent:#1F4FFF;
+  --stage:#0E7C6B; --alternance:#B45309; --junior:#5B3FD1; --vie:#BE185D;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --paper:#0D1220; --surface:#161C2E; --ink:#E8ECF6; --muted:#9AA5BC; --line:#2A3350; --accent:#6C8CFF;
+    --stage:#34C3AB; --alternance:#F0A04B; --junior:#9D8CFF; --vie:#F472A8;
+    color-scheme:dark;
+  }
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--paper);color:var(--ink);font:16px/1.5 "Schibsted Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-text-size-adjust:100%}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:40px 20px 80px}
+h1{font-size:clamp(1.9rem,4.5vw,3rem);line-height:1.08;letter-spacing:-.025em;margin:0 0 10px;font-weight:700;max-width:18ch}
+.lede{color:var(--muted);margin:0 0 28px;max-width:60ch}
+.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);margin-bottom:20px}
+.tab{appearance:none;background:none;border:0;border-bottom:2px solid transparent;color:var(--muted);font:inherit;font-weight:600;padding:10px 14px;cursor:pointer;margin-bottom:-1px}
+.tab[aria-selected=true]{color:var(--ink);border-bottom-color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+.filters{display:grid;grid-template-columns:1fr;gap:12px;margin-bottom:16px}
+@media (min-width:720px){.filters{grid-template-columns:2fr 1fr 1fr}}
+input[type=search],select{width:100%;font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px 12px}
+.types{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:8px}
+.chip{display:inline-flex;align-items:center;gap:8px;font:inherit;font-weight:600;font-size:.9rem;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:999px;padding:6px 12px;cursor:pointer}
+.chip i{width:10px;height:10px;border-radius:50%;background:var(--c)}
+.chip[aria-pressed=true]{background:var(--c);border-color:var(--c);color:#fff}
+.chip[aria-pressed=true] i{background:#fff}
+.chip.plain{--c:var(--accent)}
+.meta{color:var(--muted);font-size:.9rem;margin:14px 0 10px}
+ul.jobs{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.job{display:grid;grid-template-columns:1fr auto;gap:4px 16px;align-items:center;background:var(--surface);border:1px solid var(--line);border-left:6px solid var(--c);border-radius:8px;padding:12px 16px;text-decoration:none}
+.job:hover{border-color:var(--c)}
+.job h2{font-size:1.02rem;line-height:1.3;margin:0;font-weight:600}
+.job .sub{color:var(--muted);font-size:.9rem}
+.job .side{text-align:right;font-size:.85rem;color:var(--muted);white-space:nowrap}
+.tag{font-weight:600;color:var(--c)}
+.badge-new{display:inline-block;margin-left:8px;font-size:.75rem;font-weight:700;color:#fff;background:var(--accent);border-radius:4px;padding:1px 6px;vertical-align:2px}
+@media (max-width:560px){.job{grid-template-columns:1fr}.job .side{text-align:left}}
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:8px;padding:28px;color:var(--muted)}
+.empty strong{color:var(--ink)}
+table{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.scroll{overflow-x:auto}
+th,td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--line);font-size:.92rem;vertical-align:top}
+th{color:var(--muted);font-weight:600}
+tr:last-child td{border-bottom:0}
+.ok{color:var(--stage);font-weight:600}.todo{color:var(--alternance);font-weight:600}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Early careers in Europe</h1>
+  <p class="lede" id="lede">Stages, alternances, junior roles and VIE at large employers in France, Germany, Switzerland, Ireland and Luxembourg.</p>
+
+  <div class="tabs" role="tablist">
+    <button class="tab" role="tab" id="tab-offers" aria-selected="true" aria-controls="panel-offers">Offers</button>
+    <button class="tab" role="tab" id="tab-companies" aria-selected="false" aria-controls="panel-companies">Companies</button>
+  </div>
+
+  <section id="panel-offers" role="tabpanel" aria-labelledby="tab-offers">
+    <div class="filters">
+      <input type="search" id="q" placeholder="Search title, company or city" aria-label="Search offers">
+      <select id="country" aria-label="Country"><option value="">All countries</option></select>
+      <select id="sector" aria-label="Sector"><option value="">All sectors</option></select>
+    </div>
+    <div class="types" id="types"></div>
+    <div class="meta" id="count" aria-live="polite"></div>
+    <ul class="jobs" id="jobs"></ul>
+  </section>
+
+  <section id="panel-companies" role="tabpanel" aria-labelledby="tab-companies" hidden>
+    <p class="meta">Employers without a public job feed are not scraped. Use the link to open their careers search.</p>
+    <div class="scroll"><table><thead><tr><th>Company</th><th>Sector</th><th>Coverage</th><th>Open early-career roles</th><th></th></tr></thead><tbody id="companies"></tbody></table></div>
+  </section>
+</div>
+
+<script>
+const TYPES = {stage:"Internship / stage", alternance:"Alternance / apprenticeship", junior:"Junior / graduate", vie:"VIE"};
+const COUNTRIES = {FR:"France", DE:"Germany", CH:"Switzerland", IE:"Ireland", LU:"Luxembourg"};
+const SECTORS = {medtech:"Medtech & health", finance:"Banking & finance", tech:"Tech & AI"};
+const state = {q:"", country:"", sector:"", types:new Set(), onlyNew:false};
+let DATA = {jobs:[], companies:[], updated:null};
+
+const $ = (id) => document.getElementById(id);
+const el = (tag, props = {}, ...kids) => {
+  const n = document.createElement(tag);
+  for (const [k, v] of Object.entries(props)) {
+    if (k === "class") n.className = v; else if (k === "style") n.style.cssText = v;
+    else if (k === "text") n.textContent = v; else n.setAttribute(k, v);
+  }
+  kids.forEach(c => n.append(c));
+  return n;
+};
+const fmt = (iso) => iso ? new Date(iso + "T00:00:00").toLocaleDateString("en-GB", {day:"numeric", month:"short"}) : "";
+const daysAgo = (iso) => iso ? (Date.now() - new Date(iso + "T00:00:00").getTime()) / 864e5 : 999;
+
+function initFilters() {
+  for (const [k, v] of Object.entries(COUNTRIES)) $("country").append(el("option", {value:k, text:v}));
+  for (const [k, v] of Object.entries(SECTORS)) $("sector").append(el("option", {value:k, text:v}));
+  const box = $("types");
+  for (const [k, v] of Object.entries(TYPES)) {
+    const b = el("button", {class:"chip", type:"button", "aria-pressed":"false", style:`--c:var(--${k})`}, el("i"), v);
+    b.onclick = () => {
+      state.types.has(k) ? state.types.delete(k) : state.types.add(k);
+      b.setAttribute("aria-pressed", state.types.has(k));
+      render();
+    };
+    box.append(b);
+  }
+  const nb = el("button", {class:"chip plain", type:"button", "aria-pressed":"false"}, el("i"), "New this week");
+  nb.onclick = () => { state.onlyNew = !state.onlyNew; nb.setAttribute("aria-pressed", state.onlyNew); render(); };
+  box.append(nb);
+  $("q").oninput = (e) => { state.q = e.target.value.trim().toLowerCase(); render(); };
+  $("country").onchange = (e) => { state.country = e.target.value; render(); };
+  $("sector").onchange = (e) => { state.sector = e.target.value; render(); };
+}
+
+function render() {
+  const list = $("jobs"); list.replaceChildren();
+  const rows = DATA.jobs.filter(j =>
+    (!state.country || j.countries.includes(state.country)) &&
+    (!state.sector || j.sector === state.sector) &&
+    (!state.types.size || state.types.has(j.type)) &&
+    (!state.onlyNew || daysAgo(j.first_seen) <= 7) &&
+    (!state.q || `${j.title} ${j.company} ${j.location}`.toLowerCase().includes(state.q)));
+
+  if (!DATA.updated) {
+    $("count").textContent = "";
+    list.append(el("li", {class:"empty"}, el("strong", {text:"No data yet. "}),
+      "Run the “update-jobs” workflow once (Actions tab on GitHub) or run python scraper/jobboard.py, then reload this page."));
+    return;
+  }
+  $("count").textContent = `${rows.length} offer${rows.length === 1 ? "" : "s"} · updated ${DATA.updated.slice(0, 10)}`;
+  if (!rows.length) {
+    list.append(el("li", {class:"empty"}, "No offers match these filters. Clear a filter or try a different search."));
+    return;
+  }
+  for (const j of rows.slice(0, 400)) {
+    const title = el("h2", {text:j.title});
+    if (daysAgo(j.first_seen) <= 7) title.append(el("span", {class:"badge-new", text:"New"}));
+    const a = el("a", {class:"job", href:j.url, target:"_blank", rel:"noopener noreferrer", style:`--c:var(--${j.type})`},
+      el("div", {}, title, el("div", {class:"sub", text:`${j.company} · ${j.location}`})),
+      el("div", {class:"side"}, el("div", {class:"tag", text:TYPES[j.type]}), el("div", {text:fmt(j.posted || j.first_seen)})));
+    list.append(el("li", {}, a));
+  }
+  if (rows.length > 400) list.append(el("li", {class:"meta", text:`Showing the 400 most recent of ${rows.length}. Narrow the filters to see the rest.`}));
+}
+
+function renderCompanies() {
+  const body = $("companies"); body.replaceChildren();
+  for (const c of DATA.companies) {
+    const covered = !!c.ats;
+    body.append(el("tr", {},
+      el("td", {text:c.name}),
+      el("td", {text:SECTORS[c.sector] || c.sector}),
+      el("td", {class:covered ? "ok" : "todo", text:covered ? `Tracked (${c.ats})` : "Check manually"}),
+      el("td", {text:covered ? String(c.jobs) : "–"}),
+      el("td", {}, el("a", {href:c.search_url, target:"_blank", rel:"noopener noreferrer", text:"Search careers"}))));
+  }
+  if (!DATA.companies.length) body.append(el("tr", {}, el("td", {colspan:"5", text:"No data yet."})));
+}
+
+function initTabs() {
+  const pick = (name) => {
+    for (const t of ["offers", "companies"]) {
+      $("tab-" + t).setAttribute("aria-selected", t === name);
+      $("panel-" + t).hidden = t !== name;
+    }
+  };
+  $("tab-offers").onclick = () => pick("offers");
+  $("tab-companies").onclick = () => pick("companies");
+}
+
+initFilters(); initTabs();
+fetch("jobs.json", {cache:"no-cache"}).then(r => r.json()).then(d => { DATA = d; render(); renderCompanies(); })
+  .catch(() => {
+    $("jobs").append(el("li", {class:"empty"}, el("strong", {text:"Could not load jobs.json. "}),
+      "Open this page from GitHub Pages or a local server (python -m http.server in the docs folder), not by double-clicking the file."));
+  });
+</script>
+</body>
+</html>

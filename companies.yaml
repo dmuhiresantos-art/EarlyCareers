@@ -1,0 +1,53 @@
+# Países que te interesan (se descartan ofertas de otros países)
+countries: [FR, DE, CH, IE, LU]
+
+# sector: medtech | finance | tech
+# slugs: pistas de cómo se llama la empresa en su ATS (el script las prueba solo)
+# Para forzar un ATS:  ats: greenhouse | lever | ashby | smartrecruiters | workable | recruitee
+#                      slug: nombre-en-el-ats
+# Workday (grandes empresas):  ats: workday, host: xxx.wd3.myworkdayjobs.com, tenant: xxx, site: NombreDelSite
+# Boston Scientific usa portal propio/Eightfold (no Workday): queda en el directorio.
+# Sin API pública: no pongas nada, aparece en la pestaña "Companies" con enlace de búsqueda.
+companies:
+  # Francia
+  - {name: Sanofi, sector: medtech, ats: workday, host: sanofi.wd3.myworkdayjobs.com, tenant: sanofi, site: SanofiCareers}
+  - {name: bioMérieux, sector: medtech}
+  - {name: BNP Paribas, sector: finance}
+  - {name: Société Générale, sector: finance}
+  - {name: Mistral AI, sector: tech, slugs: [mistral]}
+  - {name: Doctolib, sector: tech, slugs: [doctolib]}
+  - {name: Hugging Face, sector: tech, slugs: [huggingface]}
+  - {name: Dataiku, sector: tech, slugs: [dataiku]}
+  - {name: Alan, sector: tech, slugs: [alan]}
+  - {name: Criteo, sector: tech, slugs: [criteo]}
+  # Alemania
+  - {name: Siemens Healthineers, sector: medtech}
+  - {name: Deutsche Bank, sector: finance, ats: workday, host: db.wd3.myworkdayjobs.com, tenant: db, site: DBWebsite}
+  - {name: Allianz, sector: finance}
+  - {name: SAP, sector: tech}
+  - {name: DeepL, sector: tech, slugs: [deepl]}
+  - {name: Celonis, sector: tech, slugs: [celonis]}
+  - {name: Helsing, sector: tech, slugs: [helsing]}
+  - {name: Personio, sector: tech, slugs: [personio]}
+  - {name: Aleph Alpha, sector: tech, slugs: [alephalpha, aleph-alpha]}
+  # Suiza
+  - {name: Roche, sector: medtech}
+  - {name: Novartis, sector: medtech, ats: workday, host: novartis.wd3.myworkdayjobs.com, tenant: novartis, site: Novartis_Careers}
+  - {name: Straumann, sector: medtech, slugs: [straumann]}
+  - {name: UBS, sector: finance}
+  - {name: Julius Baer, sector: finance}
+  - {name: Sensirion, sector: tech, slugs: [sensirion]}
+  - {name: Scandit, sector: tech, slugs: [scandit]}
+  # Irlanda
+  - {name: Medtronic, sector: medtech, ats: workday, host: medtronic.wd1.myworkdayjobs.com, tenant: medtronic, site: MedtronicCareers}
+  - {name: Boston Scientific, sector: medtech}
+  - {name: State Street, sector: finance, ats: workday, host: statestreet.wd1.myworkdayjobs.com, tenant: statestreet, site: Global}
+  - {name: Citi, sector: finance, ats: workday, host: citi.wd5.myworkdayjobs.com, tenant: citi, site: "2"}
+  - {name: Stripe, sector: tech, slugs: [stripe]}
+  - {name: Intercom, sector: tech, slugs: [intercom]}
+  # Luxemburgo
+  - {name: BGL BNP Paribas, sector: finance}
+  - {name: Clearstream, sector: finance}
+  - {name: European Investment Bank, sector: finance}
+  - {name: SES, sector: tech}
+  - {name: PayPal, sector: tech}
