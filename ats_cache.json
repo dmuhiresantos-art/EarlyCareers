@@ -122,5 +122,33 @@
  "PayPal": {
   "ats": null,
   "checked": "2026-11-03"
+ },
+ "Datadog": {
+  "ats": "greenhouse",
+  "slug": "datadog"
+ },
+ "HubSpot": {
+  "ats": null,
+  "checked": "2026-11-03"
+ },
+ "Algolia": {
+  "ats": "greenhouse",
+  "slug": "algolia"
+ },
+ "Contentsquare": {
+  "ats": "lever",
+  "slug": "contentsquare"
+ },
+ "N26": {
+  "ats": "greenhouse",
+  "slug": "n26"
+ },
+ "GetYourGuide": {
+  "ats": "greenhouse",
+  "slug": "getyourguide"
+ },
+ "Back Market": {
+  "ats": "ashby",
+  "slug": "backmarket"
  }
 }

@@ -1,13 +1,43 @@
 {
- "updated": "2026-11-03T10:29+00:00",
- "count": 102,
+ "updated": "2026-11-03T10:44+00:00",
+ "count": 126,
  "jobs": [
   {
-   "id": "a539d3c16663",
+   "id": "1e47bdf488c2",
+   "title": "Apprentice – Procurement mainly SaaS",
+   "company": "Contentsquare",
+   "sector": "tech",
+   "location": "Paris Area, France",
+   "countries": [
+    "FR"
+   ],
+   "type": "alternance",
+   "url": "https://jobs.lever.co/contentsquare/107a663c-ab04-4033-900c-2ed10090d645",
+   "posted": "2026-11-03",
+   "first_seen": "2026-11-03",
+   "source": "lever"
+  },
+  {
+   "id": "514d8ba5b5d3",
+   "title": "Intern, Corporate Governance (6 Months)",
+   "company": "N26",
+   "sector": "finance",
+   "location": "Berlin",
+   "countries": [
+    "DE"
+   ],
+   "type": "stage",
+   "url": "https://n26.com/en-eu/careers/positions/8330667?gh_jid=8330667",
+   "posted": "2026-11-03",
+   "first_seen": "2026-11-03",
+   "source": "greenhouse"
+  },
+  {
+   "id": "4464d6c18df7",
    "title": "stage 6 mois assurance qualité conditionnement clinique",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Montpellier",
+   "location": "Montpellier Montpellier",
    "countries": [
     "FR"
    ],
@@ -33,11 +63,26 @@
    "source": "ashby"
   },
   {
-   "id": "f73b18d4d4b5",
+   "id": "313f7cb7ffc7",
+   "title": "FP&A Corporate Apprentice",
+   "company": "Contentsquare",
+   "sector": "tech",
+   "location": "Paris Area, France",
+   "countries": [
+    "FR"
+   ],
+   "type": "alternance",
+   "url": "https://jobs.lever.co/contentsquare/3a6d755a-349e-4e67-bfc6-cfc11b9fd733",
+   "posted": "2026-11-02",
+   "first_seen": "2026-11-03",
+   "source": "lever"
+  },
+  {
+   "id": "f127ec09b6e4",
    "title": "Intern: Graduate( Non-Tech)",
    "company": "Medtronic",
    "sector": "medtech",
-   "location": "Trevoux, Rhône Alpes, France",
+   "location": "Trevoux, Rhône Alpes, France Trevoux Rhne Alpes France",
    "countries": [
     "FR"
    ],
@@ -48,11 +93,11 @@
    "source": "workday"
   },
   {
-   "id": "4c7be176e500",
+   "id": "ddd6d9091d2c",
    "title": "Zum 1. Oktober 2027 suchen wir Dich (all genders) für ein Duales Studium Business Information Management (Bachelor of Science)",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Frankfurt am Main",
+   "location": "Frankfurt am Main Frankfurt am Main",
    "countries": [
     "DE"
    ],
@@ -63,11 +108,11 @@
    "source": "workday"
   },
   {
-   "id": "d4aa983aaf87",
+   "id": "3bf27deb9708",
    "title": "stage 6 mois – support production projet",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Lyon",
+   "location": "Lyon Lyon",
    "countries": [
     "FR"
    ],
@@ -78,11 +123,11 @@
    "source": "workday"
   },
   {
-   "id": "a8702722eea4",
+   "id": "7846472885ed",
    "title": "stage 6 mois – support production biotechnologique amélioration continue",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Lyon",
+   "location": "Lyon Lyon",
    "countries": [
     "FR"
    ],
@@ -93,11 +138,11 @@
    "source": "workday"
   },
   {
-   "id": "8294adf714ce",
+   "id": "34c5bbfdffd9",
    "title": "Werkstudent (m/w/d) Healthcare & Reimbursement Operations",
    "company": "Medtronic",
    "sector": "medtech",
-   "location": "Mollsfeld, Meerbusch, Germany",
+   "location": "Mollsfeld, Meerbusch, Germany Mollsfeld Meerbusch Germany",
    "countries": [
     "DE"
    ],
@@ -108,11 +153,26 @@
    "source": "workday"
   },
   {
-   "id": "fd55e5ea7f8c",
+   "id": "a7d0191279fd",
+   "title": "APAC Marketing Operations Intern (Japanese required)",
+   "company": "Back Market",
+   "sector": "tech",
+   "location": "Paris",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://jobs.ashbyhq.com/backmarket/9c27f185-5f20-4676-a398-d2126ce26d99",
+   "posted": "2026-10-30",
+   "first_seen": "2026-11-03",
+   "source": "ashby"
+  },
+  {
+   "id": "037727c88693",
    "title": "stage 6 mois science des données clinique",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Montpellier",
+   "location": "Montpellier Montpellier",
    "countries": [
     "FR"
    ],
@@ -123,11 +183,11 @@
    "source": "workday"
   },
   {
-   "id": "16c8232ab9b0",
+   "id": "9469fcab72c8",
    "title": "stage 6 mois analyste supply chain clinique",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Montpellier",
+   "location": "Montpellier Montpellier",
    "countries": [
     "FR"
    ],
@@ -138,11 +198,11 @@
    "source": "workday"
   },
   {
-   "id": "8781c9ff2b5d",
+   "id": "7c3a574eb1f7",
    "title": "internship 6 months communication and engagement support",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Lyon",
+   "location": "Lyon Lyon",
    "countries": [
     "FR"
    ],
@@ -168,11 +228,11 @@
    "source": "ashby"
   },
   {
-   "id": "d741e3b81f22",
+   "id": "089ef9ad1dc9",
    "title": "Stagiaire Ingénieur(e) Matériaux F/H",
    "company": "Medtronic",
    "sector": "medtech",
-   "location": "Trevoux, Rhône Alpes, France",
+   "location": "Trevoux, Rhône Alpes, France Trevoux Rhne Alpes France",
    "countries": [
     "FR"
    ],
@@ -183,11 +243,11 @@
    "source": "workday"
   },
   {
-   "id": "a0d95b7804de",
+   "id": "290efe66e69a",
    "title": "internship 6 months  product strategy and operations",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Paris",
+   "location": "Paris Paris",
    "countries": [
     "FR"
    ],
@@ -198,11 +258,11 @@
    "source": "workday"
   },
   {
-   "id": "d0f0555f57b5",
+   "id": "6e74167ce5aa",
    "title": "Sustainability & Facilities Intern",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Waterford",
+   "location": "Waterford Waterford",
    "countries": [
     "IE"
    ],
@@ -213,11 +273,11 @@
    "source": "workday"
   },
   {
-   "id": "eeaf1b9d2173",
+   "id": "8976d8503e82",
    "title": "Praktikum im Bereich Marketing - Vaccines (all genders) befristet auf 12 Monate",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Rotkreuz",
+   "location": "Rotkreuz Rotkreuz",
    "countries": [
     "CH"
    ],
@@ -228,11 +288,11 @@
    "source": "workday"
   },
   {
-   "id": "b68e48c46060",
+   "id": "609f885f5f6f",
    "title": "stage 6 mois en bioanalyse par spectrométrie de masse",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Montpellier",
+   "location": "Montpellier Montpellier",
    "countries": [
     "FR"
    ],
@@ -273,11 +333,11 @@
    "source": "ashby"
   },
   {
-   "id": "9e7a10a2ef55",
+   "id": "f30738b6548a",
    "title": "stage 6 mois affaires pharmaceutiques",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Lyon",
+   "location": "Lyon Lyon",
    "countries": [
     "FR"
    ],
@@ -303,11 +363,11 @@
    "source": "ashby"
   },
   {
-   "id": "73b3c26f9e96",
+   "id": "927a8bbef2f0",
    "title": "internship 6 months data and ia engineer",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Lyon",
+   "location": "Lyon Lyon",
    "countries": [
     "FR"
    ],
@@ -378,11 +438,11 @@
    "source": "greenhouse"
   },
   {
-   "id": "fa20f5eeabeb",
+   "id": "6bb2d73a50bb",
    "title": "Manufacturing Sciences Intern",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Waterford",
+   "location": "Waterford Waterford",
    "countries": [
     "IE"
    ],
@@ -393,11 +453,11 @@
    "source": "workday"
   },
   {
-   "id": "15dfc4f9852d",
+   "id": "cabab7019737",
    "title": "Swiss Graduate Programme 2027_Private Bank (BLIS)",
    "company": "Deutsche Bank",
    "sector": "finance",
-   "location": "Zürich Prime Tower",
+   "location": "Zürich Prime Tower Zrich Prime Tower",
    "countries": [
     "CH"
    ],
@@ -408,11 +468,11 @@
    "source": "workday"
   },
   {
-   "id": "0967ed902620",
+   "id": "912ad2f8ce04",
    "title": "stage 6 mois – implémentation de nouvelles technologies analytiques",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Lyon",
+   "location": "Lyon Lyon",
    "countries": [
     "FR"
    ],
@@ -423,11 +483,11 @@
    "source": "workday"
   },
   {
-   "id": "cb3341d4049c",
+   "id": "31db17bcaed8",
    "title": "stage 6 mois  économie de la santé et résultats cliniques",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Lyon",
+   "location": "Lyon Lyon",
    "countries": [
     "FR"
    ],
@@ -438,11 +498,11 @@
    "source": "workday"
   },
   {
-   "id": "a8c81a939432",
+   "id": "c06a959bfb5e",
    "title": "stage 6 mois  coordination innovation",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Lyon",
+   "location": "Lyon Lyon",
    "countries": [
     "FR"
    ],
@@ -453,11 +513,11 @@
    "source": "workday"
   },
   {
-   "id": "b51a52d557ed",
+   "id": "cb3d51c9138f",
    "title": "internship 6 months – public affairs vaccines",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Lyon",
+   "location": "Lyon Lyon",
    "countries": [
     "FR"
    ],
@@ -468,11 +528,11 @@
    "source": "workday"
   },
   {
-   "id": "3c38c9450a48",
+   "id": "c2dd9c044738",
    "title": "Pre Filled Syringe Process Engineering Intern",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Waterford",
+   "location": "Waterford Waterford",
    "countries": [
     "IE"
    ],
@@ -528,11 +588,11 @@
    "source": "ashby"
   },
   {
-   "id": "44c42e56cbab",
+   "id": "4d0526a8cdd7",
    "title": "FX Risk Management Sales Intern (f/m/x)",
    "company": "Deutsche Bank",
    "sector": "finance",
-   "location": "Paris",
+   "location": "Paris Paris",
    "countries": [
     "FR"
    ],
@@ -543,11 +603,11 @@
    "source": "workday"
   },
   {
-   "id": "ab0a8a1048a3",
+   "id": "2efa5ea3d12f",
    "title": "stage 2 mois analyse de dissolution",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Montpellier",
+   "location": "Montpellier Montpellier",
    "countries": [
     "FR"
    ],
@@ -558,11 +618,11 @@
    "source": "workday"
   },
   {
-   "id": "ee8d5a63b2a3",
+   "id": "5b9f21f543c2",
    "title": "Sales Coverage Support Intern (f/m/x)",
    "company": "Deutsche Bank",
    "sector": "finance",
-   "location": "Geneva Place des Bergues 3",
+   "location": "Geneva Place des Bergues 3 Geneva Place des Bergues 3",
    "countries": [
     "CH"
    ],
@@ -573,11 +633,11 @@
    "source": "workday"
   },
   {
-   "id": "2b2c74287faa",
+   "id": "eed99ed50b30",
    "title": "Intern, Client Service - Emerging Europe (f/m/x)",
    "company": "Deutsche Bank",
    "sector": "finance",
-   "location": "Zürich Prime Tower",
+   "location": "Zürich Prime Tower Zrich Prime Tower",
    "countries": [
     "CH"
    ],
@@ -588,11 +648,41 @@
    "source": "workday"
   },
   {
-   "id": "7bcc5f473a1a",
+   "id": "18dcf70845da",
+   "title": "AI Content & Knowledge Manager Intern",
+   "company": "Back Market",
+   "sector": "tech",
+   "location": "Paris",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://jobs.ashbyhq.com/backmarket/ae0b69b8-4051-4a31-a11f-f624be54b4e8",
+   "posted": "2026-10-19",
+   "first_seen": "2026-11-03",
+   "source": "ashby"
+  },
+  {
+   "id": "cbca1523a20a",
+   "title": "Affiliation Marketing Intern",
+   "company": "Back Market",
+   "sector": "tech",
+   "location": "Paris",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://jobs.ashbyhq.com/backmarket/3f3b8727-f313-41f8-a1ef-68666ecb0a0f",
+   "posted": "2026-10-19",
+   "first_seen": "2026-11-03",
+   "source": "ashby"
+  },
+  {
+   "id": "ede7d958bd60",
    "title": "internship 6 months  global market access and pricing",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Lyon",
+   "location": "Lyon Lyon",
    "countries": [
     "FR"
    ],
@@ -603,11 +693,11 @@
    "source": "workday"
   },
   {
-   "id": "df47b5041daf",
+   "id": "40ea98acda26",
    "title": "Internship Human Resources",
    "company": "Deutsche Bank",
    "sector": "finance",
-   "location": "Luxembourg 2 Blvd K. Adenauer",
+   "location": "Luxembourg 2 Blvd K. Adenauer Luxembourg 2 Blvd K Adenauer",
    "countries": [
     "LU"
    ],
@@ -618,11 +708,11 @@
    "source": "workday"
   },
   {
-   "id": "649ad9ac1557",
+   "id": "8a8a6516bcf5",
    "title": "stage 4 à 6 mois programmation",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Montpellier",
+   "location": "Montpellier Montpellier",
    "countries": [
     "FR"
    ],
@@ -633,11 +723,11 @@
    "source": "workday"
   },
   {
-   "id": "af17af33266d",
+   "id": "96e0cf725a49",
    "title": "stage 6 mois business continuity plan",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Lyon",
+   "location": "Lyon Lyon",
    "countries": [
     "FR"
    ],
@@ -648,11 +738,11 @@
    "source": "workday"
   },
   {
-   "id": "435025441dc4",
+   "id": "62bedae9a6df",
    "title": "internship 6 months scientific communication",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Lyon",
+   "location": "Lyon Lyon",
    "countries": [
     "FR"
    ],
@@ -678,11 +768,11 @@
    "source": "ashby"
   },
   {
-   "id": "b66cb1de5ae8",
+   "id": "8e323c049e39",
    "title": "Internship Private Bank – Client Lifecyle Management Team",
    "company": "Deutsche Bank",
    "sector": "finance",
-   "location": "Luxembourg 2 Blvd K. Adenauer",
+   "location": "Luxembourg 2 Blvd K. Adenauer Luxembourg 2 Blvd K Adenauer",
    "countries": [
     "LU"
    ],
@@ -693,11 +783,11 @@
    "source": "workday"
   },
   {
-   "id": "4ac90e5ac05b",
+   "id": "fdddc8802946",
    "title": "stage 6 mois pilotage formation compliance supply chain clinique",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Montpellier",
+   "location": "Montpellier Montpellier",
    "countries": [
     "FR"
    ],
@@ -708,11 +798,11 @@
    "source": "workday"
   },
   {
-   "id": "ffd7a420329c",
+   "id": "4e0d98ad4995",
    "title": "stage 6 mois projet et optimisation processus supply chain",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Montpellier",
+   "location": "Montpellier Montpellier",
    "countries": [
     "FR"
    ],
@@ -723,11 +813,11 @@
    "source": "workday"
   },
   {
-   "id": "b0e08ac3a8f3",
+   "id": "a7cb51528b6c",
    "title": "stage 6 mois automatisation digitale",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Lyon",
+   "location": "Lyon Lyon",
    "countries": [
     "FR"
    ],
@@ -783,11 +873,11 @@
    "source": "ashby"
   },
   {
-   "id": "14a52cd4067a",
+   "id": "eb1a6d6dd952",
    "title": "Structured Finance Sales Intern (f/m/x)",
    "company": "Deutsche Bank",
    "sector": "finance",
-   "location": "Paris",
+   "location": "Paris Paris",
    "countries": [
     "FR"
    ],
@@ -798,11 +888,11 @@
    "source": "workday"
   },
   {
-   "id": "d0b4f460c54a",
+   "id": "2856bf7f6409",
    "title": "Rates Flow & Solutions Sales Intern (f/m/x)",
    "company": "Deutsche Bank",
    "sector": "finance",
-   "location": "Paris",
+   "location": "Paris Paris",
    "countries": [
     "FR"
    ],
@@ -813,11 +903,11 @@
    "source": "workday"
   },
   {
-   "id": "aa9ffb8c33eb",
+   "id": "6acf1d99d81e",
    "title": "Cross-Asset Structured Products Sales Intern (f/m/x)",
    "company": "Deutsche Bank",
    "sector": "finance",
-   "location": "Paris",
+   "location": "Paris Paris",
    "countries": [
     "FR"
    ],
@@ -843,11 +933,11 @@
    "source": "greenhouse"
   },
   {
-   "id": "43570fcd855f",
+   "id": "f344d70019b1",
    "title": "Junior Brand Associate - VIE Contract",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Berlin",
+   "location": "Berlin Berlin",
    "countries": [
     "DE"
    ],
@@ -873,11 +963,11 @@
    "source": "ashby"
   },
   {
-   "id": "e3daf776251d",
+   "id": "5dfd3d620272",
    "title": "Swiss Graduate Programme 2027_Private Bank US&EI",
    "company": "Deutsche Bank",
    "sector": "finance",
-   "location": "Zürich Prime Tower",
+   "location": "Zürich Prime Tower Zrich Prime Tower",
    "countries": [
     "CH"
    ],
@@ -903,11 +993,26 @@
    "source": "greenhouse"
   },
   {
-   "id": "4b3d8aab4e9c",
+   "id": "aec2175aefa1",
+   "title": "Initiativbewerbung Studierende Praktikum (all genders)",
+   "company": "Sanofi",
+   "sector": "medtech",
+   "location": "2 Locations Frankfurt am Main",
+   "countries": [
+    "DE"
+   ],
+   "type": "stage",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Frankfurt-am-Main/Initiativbewerbung-Studierende-Praktikum--all-genders-_R2832474",
+   "posted": "2026-10-04",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
+   "id": "3edb4205f326",
    "title": "Werkstudent*in IT/Data Sciences - Wintersemesterferien 2026/2027",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Frankfurt am Main",
+   "location": "Frankfurt am Main Frankfurt am Main",
    "countries": [
     "DE"
    ],
@@ -918,11 +1023,11 @@
    "source": "workday"
   },
   {
-   "id": "0c426d7e286a",
+   "id": "00b12c450ff2",
    "title": "Werkstudent*in Produktion - Wintersemesterferien 2026/2027",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Frankfurt am Main",
+   "location": "Frankfurt am Main Frankfurt am Main",
    "countries": [
     "DE"
    ],
@@ -933,11 +1038,11 @@
    "source": "workday"
   },
   {
-   "id": "13408993ef35",
+   "id": "46815ccdf036",
    "title": "Werkstudent*in Forschung und Entwicklung - Wintersemesterferien 2026/2027",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Frankfurt am Main",
+   "location": "Frankfurt am Main Frankfurt am Main",
    "countries": [
     "DE"
    ],
@@ -948,11 +1053,11 @@
    "source": "workday"
   },
   {
-   "id": "8a916369cb18",
+   "id": "e3b26a226f42",
    "title": "Werkstudent*in Administration - Wintersemesterferien 2026/2027",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Frankfurt am Main",
+   "location": "Frankfurt am Main Frankfurt am Main",
    "countries": [
     "DE"
    ],
@@ -963,11 +1068,11 @@
    "source": "workday"
   },
   {
-   "id": "85ec65e6fee4",
+   "id": "d75fc228f25c",
    "title": "Werkstudent*in Engineering Wintersemesterferien 2026/2027",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Frankfurt am Main",
+   "location": "Frankfurt am Main Frankfurt am Main",
    "countries": [
     "DE"
    ],
@@ -978,11 +1083,11 @@
    "source": "workday"
   },
   {
-   "id": "4921de29882f",
+   "id": "d6895c01de06",
    "title": "Intern (Luxembourg)",
    "company": "Deutsche Bank",
    "sector": "finance",
-   "location": "Luxembourg 2 Blvd K. Adenauer",
+   "location": "Luxembourg 2 Blvd K. Adenauer Luxembourg 2 Blvd K Adenauer",
    "countries": [
     "LU"
    ],
@@ -993,11 +1098,11 @@
    "source": "workday"
   },
   {
-   "id": "557c8471d2ed",
+   "id": "ffb8f1e4ab06",
    "title": "Corporate Banking Coverage Intern (f/m/x)",
    "company": "Deutsche Bank",
    "sector": "finance",
-   "location": "Paris",
+   "location": "Paris Paris",
    "countries": [
     "FR"
    ],
@@ -1008,11 +1113,11 @@
    "source": "workday"
   },
   {
-   "id": "1b48b0d7a512",
+   "id": "221dfb8e7920",
    "title": "Export Finance Paris Intern (f/m/x)",
    "company": "Deutsche Bank",
    "sector": "finance",
-   "location": "Paris",
+   "location": "Paris Paris",
    "countries": [
     "FR"
    ],
@@ -1023,11 +1128,11 @@
    "source": "workday"
   },
   {
-   "id": "8a4d8c1e6a1f",
+   "id": "0d6907542268",
    "title": "PRODUCT MANAGER (H/F) en alternance",
    "company": "Novartis",
    "sector": "medtech",
-   "location": "Paris Headquarter (PHARMA)",
+   "location": "Paris Headquarter (PHARMA) Paris Headquarter PHARMA",
    "countries": [
     "FR"
    ],
@@ -1038,11 +1143,11 @@
    "source": "workday"
   },
   {
-   "id": "900481174fbb",
+   "id": "6107264734e3",
    "title": "Banking, Corporate Banking, Financial Institutions Group (FIG), Placement Analyst Internship, Paris - France 2027",
    "company": "Citi",
    "sector": "finance",
-   "location": "Paris  France",
+   "location": "Paris  France Paris  France",
    "countries": [
     "FR"
    ],
@@ -1053,11 +1158,11 @@
    "source": "workday"
   },
   {
-   "id": "4aff489afa3c",
+   "id": "2e25f6bb3384",
    "title": "Markets – Sales and Trading, Off-Cycle Internship, Paris – France, 2027",
    "company": "Citi",
    "sector": "finance",
-   "location": "Paris  France",
+   "location": "Paris  France Paris  France",
    "countries": [
     "FR"
    ],
@@ -1113,6 +1218,36 @@
    "source": "ashby"
   },
   {
+   "id": "582f0a693ab5",
+   "title": "Trade-in Buybulk Intern",
+   "company": "Back Market",
+   "sector": "tech",
+   "location": "Paris",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://jobs.ashbyhq.com/backmarket/fa86e653-4813-4021-b4a2-ee1d907087fb",
+   "posted": "2026-09-23",
+   "first_seen": "2026-11-03",
+   "source": "ashby"
+  },
+  {
+   "id": "d6c4f06929cd",
+   "title": "Business Development Intern (Mandarin Speaker)",
+   "company": "Back Market",
+   "sector": "tech",
+   "location": "Paris",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://jobs.ashbyhq.com/backmarket/d528a6a4-ff70-4117-9779-76e8cb5ffb7e",
+   "posted": "2026-09-23",
+   "first_seen": "2026-11-03",
+   "source": "ashby"
+  },
+  {
    "id": "a6b648d172c6",
    "title": "Medical Data Intern (x/f/m)",
    "company": "Doctolib",
@@ -1128,6 +1263,36 @@
    "source": "ashby"
   },
   {
+   "id": "faa16307ed20",
+   "title": "Service Project Management Intern",
+   "company": "Back Market",
+   "sector": "tech",
+   "location": "Paris",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://jobs.ashbyhq.com/backmarket/21f6889e-0021-4f23-a6b6-e22444315bc2",
+   "posted": "2026-09-22",
+   "first_seen": "2026-11-03",
+   "source": "ashby"
+  },
+  {
+   "id": "c9072f72b12b",
+   "title": "Operations Efficiency Intern",
+   "company": "Back Market",
+   "sector": "tech",
+   "location": "Bordeaux",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://jobs.ashbyhq.com/backmarket/1fcf3fa6-7e34-4729-a687-d981856bf887",
+   "posted": "2026-09-22",
+   "first_seen": "2026-11-03",
+   "source": "ashby"
+  },
+  {
    "id": "79e2645d6028",
    "title": "Stage - Assistant Conformité & Modération de Contenu (x/f/m) - janvier 2027",
    "company": "Doctolib",
@@ -1138,6 +1303,36 @@
    ],
    "type": "stage",
    "url": "https://jobs.ashbyhq.com/doctolib/09933f5e-451a-4cc3-bea6-98a5a0160fe5",
+   "posted": "2026-09-21",
+   "first_seen": "2026-11-03",
+   "source": "ashby"
+  },
+  {
+   "id": "edb5f8848bd2",
+   "title": "Product & Operations Management Apprentice",
+   "company": "Back Market",
+   "sector": "tech",
+   "location": "Bordeaux",
+   "countries": [
+    "FR"
+   ],
+   "type": "alternance",
+   "url": "https://jobs.ashbyhq.com/backmarket/26c4cd8e-9679-42ac-8905-2cd8ae8f7e10",
+   "posted": "2026-09-21",
+   "first_seen": "2026-11-03",
+   "source": "ashby"
+  },
+  {
+   "id": "65c949ebba44",
+   "title": "Customer Journey & App Analytics Apprentice",
+   "company": "Back Market",
+   "sector": "tech",
+   "location": "Bordeaux",
+   "countries": [
+    "FR"
+   ],
+   "type": "alternance",
+   "url": "https://jobs.ashbyhq.com/backmarket/bdd15e60-60f0-4282-bf87-f789ae7501ad",
    "posted": "2026-09-21",
    "first_seen": "2026-11-03",
    "source": "ashby"
@@ -1293,6 +1488,81 @@
    "source": "ashby"
   },
   {
+   "id": "52956d26cfe0",
+   "title": "User Research UX Apprentice",
+   "company": "Back Market",
+   "sector": "tech",
+   "location": "Bordeaux",
+   "countries": [
+    "FR"
+   ],
+   "type": "alternance",
+   "url": "https://jobs.ashbyhq.com/backmarket/54b5b0a5-a6ba-42a9-b12c-522faaf10dd7",
+   "posted": "2026-09-17",
+   "first_seen": "2026-11-03",
+   "source": "ashby"
+  },
+  {
+   "id": "34c7ddd96847",
+   "title": "Product Manager Apprentice, Checkout",
+   "company": "Back Market",
+   "sector": "tech",
+   "location": "Paris",
+   "countries": [
+    "FR"
+   ],
+   "type": "alternance",
+   "url": "https://jobs.ashbyhq.com/backmarket/208aeb7f-62b7-400c-b4c6-4ce3a9919119",
+   "posted": "2026-09-17",
+   "first_seen": "2026-11-03",
+   "source": "ashby"
+  },
+  {
+   "id": "00e022e4f56f",
+   "title": "Brand & Marketing CRM Engagement Intern",
+   "company": "Back Market",
+   "sector": "tech",
+   "location": "Paris",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://jobs.ashbyhq.com/backmarket/d26936dd-15ad-4932-94eb-9d07995aa0d6",
+   "posted": "2026-09-16",
+   "first_seen": "2026-11-03",
+   "source": "ashby"
+  },
+  {
+   "id": "bbcdb716495c",
+   "title": "Operations Data & Automation Apprentice",
+   "company": "Back Market",
+   "sector": "tech",
+   "location": "Bordeaux",
+   "countries": [
+    "FR"
+   ],
+   "type": "alternance",
+   "url": "https://jobs.ashbyhq.com/backmarket/8feb95fc-6c41-4b1b-adc1-4d090da2809d",
+   "posted": "2026-09-16",
+   "first_seen": "2026-11-03",
+   "source": "ashby"
+  },
+  {
+   "id": "40aba62d7560",
+   "title": "Seller Onboarding and Support Intern",
+   "company": "Back Market",
+   "sector": "tech",
+   "location": "Paris",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://jobs.ashbyhq.com/backmarket/a2d647bf-ab8d-48c5-8fa5-25d11fe55f54",
+   "posted": "2026-09-16",
+   "first_seen": "2026-11-03",
+   "source": "ashby"
+  },
+  {
    "id": "95b5537e4c5e",
    "title": "Stage - Salesforce Support Associate (x/f/m)",
    "company": "Doctolib",
@@ -1323,6 +1593,66 @@
    "source": "ashby"
   },
   {
+   "id": "ce75ab8cb7d4",
+   "title": "Fraud and Risk Officer Intern",
+   "company": "Back Market",
+   "sector": "tech",
+   "location": "Paris",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://jobs.ashbyhq.com/backmarket/40a80901-b0e4-4bc5-8208-1c396c1c8384",
+   "posted": "2026-09-09",
+   "first_seen": "2026-11-03",
+   "source": "ashby"
+  },
+  {
+   "id": "fb4b22ad4a57",
+   "title": "Applied Science Intern",
+   "company": "Datadog",
+   "sector": "tech",
+   "location": "Paris, France",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://careers.datadoghq.com/detail/8181440/?gh_jid=8181440",
+   "posted": "2026-09-08",
+   "first_seen": "2026-11-03",
+   "source": "greenhouse"
+  },
+  {
+   "id": "33b21e5a3efc",
+   "title": "IT Support Technician Intern",
+   "company": "Datadog",
+   "sector": "tech",
+   "location": "Paris, France",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://careers.datadoghq.com/detail/8129799/?gh_jid=8129799",
+   "posted": "2026-09-08",
+   "first_seen": "2026-11-03",
+   "source": "greenhouse"
+  },
+  {
+   "id": "5381de82351f",
+   "title": "Software Engineering Intern",
+   "company": "Datadog",
+   "sector": "tech",
+   "location": "Paris, France",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://careers.datadoghq.com/detail/8114186/?gh_jid=8114186",
+   "posted": "2026-09-08",
+   "first_seen": "2026-11-03",
+   "source": "greenhouse"
+  },
+  {
    "id": "2a64c5ea10b4",
    "title": "People Associate (internship)",
    "company": "Alan",
@@ -1334,6 +1664,36 @@
    "type": "stage",
    "url": "https://jobs.ashbyhq.com/alan/71fa3e9d-1f5f-4e3f-a1de-e68b3c85803a",
    "posted": "2026-09-07",
+   "first_seen": "2026-11-03",
+   "source": "ashby"
+  },
+  {
+   "id": "99ea8fc8c0fa",
+   "title": "Financial Planning & Analysis Intern",
+   "company": "Back Market",
+   "sector": "tech",
+   "location": "Bordeaux",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://jobs.ashbyhq.com/backmarket/2551ba06-5d98-4441-8919-e20e844cc15a",
+   "posted": "2026-09-07",
+   "first_seen": "2026-11-03",
+   "source": "ashby"
+  },
+  {
+   "id": "00d05c27e14f",
+   "title": "Sustainability and Public Affairs Intern (Paris )",
+   "company": "Back Market",
+   "sector": "tech",
+   "location": "Paris",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://jobs.ashbyhq.com/backmarket/68d98b54-27d2-468a-9ae2-ace32cbb90d7",
+   "posted": "2026-09-04",
    "first_seen": "2026-11-03",
    "source": "ashby"
   },
@@ -1539,7 +1899,7 @@
    "name": "Sanofi",
    "sector": "medtech",
    "ats": "workday",
-   "jobs": 33,
+   "jobs": 34,
    "error": null,
    "search_url": "https://www.google.com/search?q=Sanofi%20early%20careers%20graduate%20internship%20alternance"
   },
@@ -1584,12 +1944,12 @@
    "search_url": "https://www.google.com/search?q=Doctolib%20early%20careers%20graduate%20internship%20alternance"
   },
   {
-   "name": "Hugging Face",
+   "name": "Datadog",
    "sector": "tech",
-   "ats": "workable",
-   "jobs": 0,
+   "ats": "greenhouse",
+   "jobs": 3,
    "error": null,
-   "search_url": "https://www.google.com/search?q=Hugging%20Face%20early%20careers%20graduate%20internship%20alternance"
+   "search_url": "https://www.google.com/search?q=Datadog%20early%20careers%20graduate%20internship%20alternance"
   },
   {
    "name": "Dataiku",
@@ -1648,12 +2008,12 @@
    "search_url": "https://www.google.com/search?q=SAP%20early%20careers%20graduate%20internship%20alternance"
   },
   {
-   "name": "DeepL",
+   "name": "HubSpot",
    "sector": "tech",
-   "ats": "ashby",
+   "ats": null,
    "jobs": 0,
    "error": null,
-   "search_url": "https://www.google.com/search?q=DeepL%20early%20careers%20graduate%20internship%20alternance"
+   "search_url": "https://www.google.com/search?q=HubSpot%20early%20careers%20graduate%20internship%20alternance"
   },
   {
    "name": "Celonis",
@@ -1664,28 +2024,28 @@
    "search_url": "https://www.google.com/search?q=Celonis%20early%20careers%20graduate%20internship%20alternance"
   },
   {
+   "name": "Algolia",
+   "sector": "tech",
+   "ats": "greenhouse",
+   "jobs": 0,
+   "error": null,
+   "search_url": "https://www.google.com/search?q=Algolia%20early%20careers%20graduate%20internship%20alternance"
+  },
+  {
+   "name": "Contentsquare",
+   "sector": "tech",
+   "ats": "lever",
+   "jobs": 2,
+   "error": null,
+   "search_url": "https://www.google.com/search?q=Contentsquare%20early%20careers%20graduate%20internship%20alternance"
+  },
+  {
    "name": "Helsing",
    "sector": "tech",
    "ats": "greenhouse",
    "jobs": 3,
    "error": null,
    "search_url": "https://www.google.com/search?q=Helsing%20early%20careers%20graduate%20internship%20alternance"
-  },
-  {
-   "name": "Personio",
-   "sector": "tech",
-   "ats": "recruitee",
-   "jobs": 0,
-   "error": null,
-   "search_url": "https://www.google.com/search?q=Personio%20early%20careers%20graduate%20internship%20alternance"
-  },
-  {
-   "name": "Aleph Alpha",
-   "sector": "tech",
-   "ats": "ashby",
-   "jobs": 0,
-   "error": null,
-   "search_url": "https://www.google.com/search?q=Aleph%20Alpha%20early%20careers%20graduate%20internship%20alternance"
   },
   {
    "name": "Roche",
@@ -1728,20 +2088,20 @@
    "search_url": "https://www.google.com/search?q=Julius%20Baer%20early%20careers%20graduate%20internship%20alternance"
   },
   {
-   "name": "Sensirion",
-   "sector": "tech",
-   "ats": null,
-   "jobs": 0,
+   "name": "N26",
+   "sector": "finance",
+   "ats": "greenhouse",
+   "jobs": 1,
    "error": null,
-   "search_url": "https://www.google.com/search?q=Sensirion%20early%20careers%20graduate%20internship%20alternance"
+   "search_url": "https://www.google.com/search?q=N26%20early%20careers%20graduate%20internship%20alternance"
   },
   {
-   "name": "Scandit",
+   "name": "GetYourGuide",
    "sector": "tech",
    "ats": "greenhouse",
    "jobs": 0,
    "error": null,
-   "search_url": "https://www.google.com/search?q=Scandit%20early%20careers%20graduate%20internship%20alternance"
+   "search_url": "https://www.google.com/search?q=GetYourGuide%20early%20careers%20graduate%20internship%20alternance"
   },
   {
    "name": "Medtronic",
@@ -1816,12 +2176,12 @@
    "search_url": "https://www.google.com/search?q=European%20Investment%20Bank%20early%20careers%20graduate%20internship%20alternance"
   },
   {
-   "name": "SES",
+   "name": "Back Market",
    "sector": "tech",
-   "ats": "greenhouse",
-   "jobs": 0,
+   "ats": "ashby",
+   "jobs": 17,
    "error": null,
-   "search_url": "https://www.google.com/search?q=SES%20early%20careers%20graduate%20internship%20alternance"
+   "search_url": "https://www.google.com/search?q=Back%20Market%20early%20careers%20graduate%20internship%20alternance"
   },
   {
    "name": "PayPal",
