@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-03T10:44+00:00",
- "count": 126,
+ "updated": "2026-11-03T10:57+00:00",
+ "count": 143,
  "jobs": [
   {
    "id": "1e47bdf488c2",
@@ -168,6 +168,21 @@
    "source": "ashby"
   },
   {
+   "id": "7c3a574eb1f7",
+   "title": "internship 6 months communication and engagement support",
+   "company": "Sanofi",
+   "sector": "medtech",
+   "location": "Lyon Lyon",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Lyon/internship-6-months-communication-and-transformation-support_R2874254",
+   "posted": "2026-10-29",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
    "id": "037727c88693",
    "title": "stage 6 mois science des données clinique",
    "company": "Sanofi",
@@ -193,21 +208,6 @@
    ],
    "type": "stage",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Montpellier/stage-6-mois-analyste-supply-chain-clinique_R2873737",
-   "posted": "2026-10-29",
-   "first_seen": "2026-11-03",
-   "source": "workday"
-  },
-  {
-   "id": "7c3a574eb1f7",
-   "title": "internship 6 months communication and engagement support",
-   "company": "Sanofi",
-   "sector": "medtech",
-   "location": "Lyon Lyon",
-   "countries": [
-    "FR"
-   ],
-   "type": "stage",
-   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Lyon/internship-6-months-communication-and-transformation-support_R2874254",
    "posted": "2026-10-29",
    "first_seen": "2026-11-03",
    "source": "workday"
@@ -243,21 +243,6 @@
    "source": "workday"
   },
   {
-   "id": "290efe66e69a",
-   "title": "internship 6 months  product strategy and operations",
-   "company": "Sanofi",
-   "sector": "medtech",
-   "location": "Paris Paris",
-   "countries": [
-    "FR"
-   ],
-   "type": "stage",
-   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Paris/internship-6-months--product-strategy-and-operations_R2873413",
-   "posted": "2026-10-28",
-   "first_seen": "2026-11-03",
-   "source": "workday"
-  },
-  {
    "id": "6e74167ce5aa",
    "title": "Sustainability & Facilities Intern",
    "company": "Sanofi",
@@ -268,6 +253,21 @@
    ],
    "type": "stage",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Waterford/Clean-Utilities---Sustainability-Intern_R2874752",
+   "posted": "2026-10-28",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
+   "id": "290efe66e69a",
+   "title": "internship 6 months  product strategy and operations",
+   "company": "Sanofi",
+   "sector": "medtech",
+   "location": "Paris Paris",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Paris/internship-6-months--product-strategy-and-operations_R2873413",
    "posted": "2026-10-28",
    "first_seen": "2026-11-03",
    "source": "workday"
@@ -483,16 +483,16 @@
    "source": "workday"
   },
   {
-   "id": "31db17bcaed8",
-   "title": "stage 6 mois  économie de la santé et résultats cliniques",
+   "id": "c2dd9c044738",
+   "title": "Pre Filled Syringe Process Engineering Intern",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Lyon Lyon",
+   "location": "Waterford Waterford",
    "countries": [
-    "FR"
+    "IE"
    ],
    "type": "stage",
-   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Lyon/stage-6-mois---conomie-de-la-sant-et-rsultats-cliniques_R2873842",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Waterford/Pre-Filled-Syringe-Process-Engineering-Intern_R2875164",
    "posted": "2026-10-21",
    "first_seen": "2026-11-03",
    "source": "workday"
@@ -528,16 +528,16 @@
    "source": "workday"
   },
   {
-   "id": "c2dd9c044738",
-   "title": "Pre Filled Syringe Process Engineering Intern",
+   "id": "31db17bcaed8",
+   "title": "stage 6 mois  économie de la santé et résultats cliniques",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Waterford Waterford",
+   "location": "Lyon Lyon",
    "countries": [
-    "IE"
+    "FR"
    ],
    "type": "stage",
-   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Waterford/Pre-Filled-Syringe-Process-Engineering-Intern_R2875164",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Lyon/stage-6-mois---conomie-de-la-sant-et-rsultats-cliniques_R2873842",
    "posted": "2026-10-21",
    "first_seen": "2026-11-03",
    "source": "workday"
@@ -708,6 +708,21 @@
    "source": "workday"
   },
   {
+   "id": "62bedae9a6df",
+   "title": "internship 6 months scientific communication",
+   "company": "Sanofi",
+   "sector": "medtech",
+   "location": "Lyon Lyon",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Lyon/stage-6-mois-communication-scientifique_R2874270",
+   "posted": "2026-10-14",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
    "id": "8a8a6516bcf5",
    "title": "stage 4 à 6 mois programmation",
    "company": "Sanofi",
@@ -733,21 +748,6 @@
    ],
    "type": "stage",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Lyon/stage-6-mois-cyber-rsilience_R2874677",
-   "posted": "2026-10-14",
-   "first_seen": "2026-11-03",
-   "source": "workday"
-  },
-  {
-   "id": "62bedae9a6df",
-   "title": "internship 6 months scientific communication",
-   "company": "Sanofi",
-   "sector": "medtech",
-   "location": "Lyon Lyon",
-   "countries": [
-    "FR"
-   ],
-   "type": "stage",
-   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Lyon/stage-6-mois-communication-scientifique_R2874270",
    "posted": "2026-10-14",
    "first_seen": "2026-11-03",
    "source": "workday"
@@ -783,6 +783,21 @@
    "source": "workday"
   },
   {
+   "id": "a7cb51528b6c",
+   "title": "stage 6 mois automatisation digitale",
+   "company": "Sanofi",
+   "sector": "medtech",
+   "location": "Lyon Lyon",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Lyon/stage-6-mois-dveloppement-logiciel_R2874009",
+   "posted": "2026-10-12",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
    "id": "fdddc8802946",
    "title": "stage 6 mois pilotage formation compliance supply chain clinique",
    "company": "Sanofi",
@@ -808,21 +823,6 @@
    ],
    "type": "stage",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Montpellier/stage-6-mois-projet-et-optimisation-processus-supply-chain_R2873779",
-   "posted": "2026-10-12",
-   "first_seen": "2026-11-03",
-   "source": "workday"
-  },
-  {
-   "id": "a7cb51528b6c",
-   "title": "stage 6 mois automatisation digitale",
-   "company": "Sanofi",
-   "sector": "medtech",
-   "location": "Lyon Lyon",
-   "countries": [
-    "FR"
-   ],
-   "type": "stage",
-   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Lyon/stage-6-mois-dveloppement-logiciel_R2874009",
    "posted": "2026-10-12",
    "first_seen": "2026-11-03",
    "source": "workday"
@@ -933,6 +933,51 @@
    "source": "greenhouse"
   },
   {
+   "id": "7becf9e25826",
+   "title": "internship 6 months communication and project engagement",
+   "company": "Sanofi",
+   "sector": "medtech",
+   "location": "Paris Paris",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Paris/internship-6-months-communication-and-project-engagement-intern_R2873801",
+   "posted": "2026-10-09",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
+   "id": "3e5c5af9d796",
+   "title": "stage 6 mois support de communication et de transformation",
+   "company": "Sanofi",
+   "sector": "medtech",
+   "location": "Montpellier Montpellier",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Montpellier/stage-6-mois-support-de-communication-et-de-transformation_R2874040",
+   "posted": "2026-10-09",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
+   "id": "9758d18e1771",
+   "title": "stage 6 mois caractérisation analyse structurale RMN",
+   "company": "Sanofi",
+   "sector": "medtech",
+   "location": "Montpellier Montpellier",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Montpellier/stage-6-mois-caractrisation-analyse-structurale-RMN_R2873991",
+   "posted": "2026-10-09",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
    "id": "f344d70019b1",
    "title": "Junior Brand Associate - VIE Contract",
    "company": "Sanofi",
@@ -943,6 +988,36 @@
    ],
    "type": "vie",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Berlin/Junior-Brand-Associate---VIE-Contract_R2871079",
+   "posted": "2026-10-08",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
+   "id": "f2ba3ed06599",
+   "title": "Zum 1. Oktober suchen wir Dich (all genders) für ein Duales Studium Informatik (Bachelor of Science)",
+   "company": "Sanofi",
+   "sector": "medtech",
+   "location": "Frankfurt am Main Frankfurt am Main",
+   "countries": [
+    "DE"
+   ],
+   "type": "alternance",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Frankfurt-am-Main/Zum-1-Oktober-suchen-wir-Dich--all-genders--fr-ein-Duales-Studium-Informatik--Bachelor-of-Science-_R2851136",
+   "posted": "2026-10-08",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
+   "id": "abf522820395",
+   "title": "stage 6 mois software engineer",
+   "company": "Sanofi",
+   "sector": "medtech",
+   "location": "Lyon Lyon",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Lyon/stage-6-mois-software-engineer_R2873358",
    "posted": "2026-10-08",
    "first_seen": "2026-11-03",
    "source": "workday"
@@ -978,6 +1053,21 @@
    "source": "workday"
   },
   {
+   "id": "c896482d06d6",
+   "title": "stage 6 mois – projet solution digitale",
+   "company": "Sanofi",
+   "sector": "medtech",
+   "location": "2 Locations Campus Bordeaux",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Campus-Bordeaux/stage-6-mois---projet-solution-digitale_R2871678",
+   "posted": "2026-10-07",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
    "id": "341b1c62528e",
    "title": "Security Engineer, New Grad",
    "company": "Stripe",
@@ -993,16 +1083,46 @@
    "source": "greenhouse"
   },
   {
-   "id": "aec2175aefa1",
-   "title": "Initiativbewerbung Studierende Praktikum (all genders)",
+   "id": "1430f495bdce",
+   "title": "stage 4 mois – toxicologie",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "2 Locations Frankfurt am Main",
+   "location": "Montpellier Montpellier",
    "countries": [
-    "DE"
+    "FR"
    ],
    "type": "stage",
-   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Frankfurt-am-Main/Initiativbewerbung-Studierende-Praktikum--all-genders-_R2832474",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Montpellier/stage-4-mois---toxicologie_R2873950",
+   "posted": "2026-10-06",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
+   "id": "63c9941970b5",
+   "title": "stage 6 mois – toxicologie cardiaque",
+   "company": "Sanofi",
+   "sector": "medtech",
+   "location": "Montpellier Montpellier",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Montpellier/stage-6-mois---toxicologie-cardiaque_R2873955",
+   "posted": "2026-10-06",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
+   "id": "a7c2856473b1",
+   "title": "internship 6 months - global vaccines public affairs",
+   "company": "Sanofi",
+   "sector": "medtech",
+   "location": "Lyon Lyon",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Lyon/internship-6-months---global-vaccines-public-affairs_R2872836",
    "posted": "2026-10-04",
    "first_seen": "2026-11-03",
    "source": "workday"
@@ -1083,6 +1203,51 @@
    "source": "workday"
   },
   {
+   "id": "4bf9ab5ca99c",
+   "title": "stage 6 mois fiscalité",
+   "company": "Sanofi",
+   "sector": "medtech",
+   "location": "Paris Paris",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Paris/stage-6-mois-fiscalit_R2871113",
+   "posted": "2026-10-04",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
+   "id": "aec2175aefa1",
+   "title": "Initiativbewerbung Studierende Praktikum (all genders)",
+   "company": "Sanofi",
+   "sector": "medtech",
+   "location": "2 Locations Frankfurt am Main",
+   "countries": [
+    "DE"
+   ],
+   "type": "stage",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Frankfurt-am-Main/Initiativbewerbung-Studierende-Praktikum--all-genders-_R2832474",
+   "posted": "2026-10-04",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
+   "id": "e773cc74f47e",
+   "title": "stage 6 mois  modélisation et optimisation pharmacocinétique pédiatrique",
+   "company": "Sanofi",
+   "sector": "medtech",
+   "location": "Montpellier Montpellier",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Montpellier/stage-6-mois--modlisation-et-optimisation-en-pharmacocintique_R2873149",
+   "posted": "2026-10-04",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
    "id": "d6895c01de06",
    "title": "Intern (Luxembourg)",
    "company": "Deutsche Bank",
@@ -1143,8 +1308,8 @@
    "source": "workday"
   },
   {
-   "id": "6107264734e3",
-   "title": "Banking, Corporate Banking, Financial Institutions Group (FIG), Placement Analyst Internship, Paris - France 2027",
+   "id": "91ca7b12fbc3",
+   "title": "Banking, Corporate Banking, Placement Analyst Internship, Paris, France 2026",
    "company": "Citi",
    "sector": "finance",
    "location": "Paris  France Paris  France",
@@ -1152,7 +1317,22 @@
     "FR"
    ],
    "type": "stage",
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Paris--France/Banking--Corporate-Banking--Financial-Institutions-Group--FIG---Placement-Analyst-Internship--Paris---France-2027_26992453",
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Paris--France/Banking--Corporate-Banking--Placement-Analyst-Internship--Paris--France-2026_25908794",
+   "posted": "2026-10-04",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
+   "id": "1a79a793fe28",
+   "title": "Banking, Corporate Banking, Placement Analyst Internship, Paris - France 2027",
+   "company": "Citi",
+   "sector": "finance",
+   "location": "Paris  France Paris  France",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Paris--France/Banking--Corporate-Banking--Placement-Analyst-Internship--Paris---France-2027_26992458",
    "posted": "2026-10-04",
    "first_seen": "2026-11-03",
    "source": "workday"
@@ -1168,6 +1348,81 @@
    ],
    "type": "stage",
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Paris--France/Markets---Sales-and-Trading--Off-Cycle-Internship--Paris---France--2027_26992518",
+   "posted": "2026-10-04",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
+   "id": "ce35d1389778",
+   "title": "Banking, Financing, Equity Capital Markets, Placement Analyst Internship, Paris - France 2027",
+   "company": "Citi",
+   "sector": "finance",
+   "location": "Paris  France Paris  France",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Paris--France/Banking--Financing--Equity-Capital-Markets--Placement-Analyst-Internship--Paris---France-2027_26992452",
+   "posted": "2026-10-04",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
+   "id": "e24b0ec43676",
+   "title": "Banking, Financing, Debt Capital Markets, Placement Analyst Internship, Paris - France 2027",
+   "company": "Citi",
+   "sector": "finance",
+   "location": "Paris  France Paris  France",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Paris--France/Banking--Financing--Debt-Capital-Markets--Placement-Analyst-Internship--Paris---France-2027_26992465",
+   "posted": "2026-10-04",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
+   "id": "2d9b7227d795",
+   "title": "Banking, Corporate Banking, Relationship Analyst, Placement Analyst Internship, Paris - France 2027",
+   "company": "Citi",
+   "sector": "finance",
+   "location": "Paris  France Paris  France",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Paris--France/Banking--Corporate-Banking--Relationship-Analyst--Placement-Analyst-Internship--Paris---France-2027_26992471",
+   "posted": "2026-10-04",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
+   "id": "7de781460dc3",
+   "title": "Banking, Investment Banking, Financial Institution Group, Placement Analyst Internship, Paris - France 2027",
+   "company": "Citi",
+   "sector": "finance",
+   "location": "Paris  France Paris  France",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Paris--France/Banking--Investment-Banking--Financial-Institution-Group--Placement-Analyst-Internship--Paris---France-2027_26992470",
+   "posted": "2026-10-04",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
+   "id": "6107264734e3",
+   "title": "Banking, Corporate Banking, Financial Institutions Group (FIG), Placement Analyst Internship, Paris - France 2027",
+   "company": "Citi",
+   "sector": "finance",
+   "location": "Paris  France Paris  France",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Paris--France/Banking--Corporate-Banking--Financial-Institutions-Group--FIG---Placement-Analyst-Internship--Paris---France-2027_26992453",
    "posted": "2026-10-04",
    "first_seen": "2026-11-03",
    "source": "workday"
@@ -1899,7 +2154,7 @@
    "name": "Sanofi",
    "sector": "medtech",
    "ats": "workday",
-   "jobs": 34,
+   "jobs": 45,
    "error": null,
    "search_url": "https://www.google.com/search?q=Sanofi%20early%20careers%20graduate%20internship%20alternance"
   },
@@ -2131,7 +2386,7 @@
    "name": "Citi",
    "sector": "finance",
    "ats": "workday",
-   "jobs": 2,
+   "jobs": 8,
    "error": null,
    "search_url": "https://www.google.com/search?q=Citi%20early%20careers%20graduate%20internship%20alternance"
   },
