@@ -1,1 +1,126 @@
-{}
+{
+ "bioMérieux": {
+  "ats": null,
+  "checked": "2026-11-03"
+ },
+ "BNP Paribas": {
+  "ats": null,
+  "checked": "2026-11-03"
+ },
+ "Société Générale": {
+  "ats": null,
+  "checked": "2026-11-03"
+ },
+ "Mistral AI": {
+  "ats": null,
+  "checked": "2026-11-03"
+ },
+ "Doctolib": {
+  "ats": "ashby",
+  "slug": "doctolib"
+ },
+ "Hugging Face": {
+  "ats": "workable",
+  "slug": "huggingface"
+ },
+ "Dataiku": {
+  "ats": "greenhouse",
+  "slug": "dataiku"
+ },
+ "Alan": {
+  "ats": "ashby",
+  "slug": "alan"
+ },
+ "Criteo": {
+  "ats": null,
+  "checked": "2026-11-03"
+ },
+ "Siemens Healthineers": {
+  "ats": null,
+  "checked": "2026-11-03"
+ },
+ "Allianz": {
+  "ats": null,
+  "checked": "2026-11-03"
+ },
+ "SAP": {
+  "ats": null,
+  "checked": "2026-11-03"
+ },
+ "DeepL": {
+  "ats": "ashby",
+  "slug": "deepl"
+ },
+ "Celonis": {
+  "ats": "greenhouse",
+  "slug": "celonis"
+ },
+ "Helsing": {
+  "ats": "greenhouse",
+  "slug": "helsing"
+ },
+ "Personio": {
+  "ats": "recruitee",
+  "slug": "personio"
+ },
+ "Aleph Alpha": {
+  "ats": "ashby",
+  "slug": "alephalpha"
+ },
+ "Roche": {
+  "ats": null,
+  "checked": "2026-11-03"
+ },
+ "Straumann": {
+  "ats": null,
+  "checked": "2026-11-03"
+ },
+ "UBS": {
+  "ats": null,
+  "checked": "2026-11-03"
+ },
+ "Julius Baer": {
+  "ats": null,
+  "checked": "2026-11-03"
+ },
+ "Sensirion": {
+  "ats": null,
+  "checked": "2026-11-03"
+ },
+ "Scandit": {
+  "ats": "greenhouse",
+  "slug": "scandit"
+ },
+ "Boston Scientific": {
+  "ats": null,
+  "checked": "2026-11-03"
+ },
+ "Stripe": {
+  "ats": "greenhouse",
+  "slug": "stripe"
+ },
+ "Intercom": {
+  "ats": "greenhouse",
+  "slug": "intercom"
+ },
+ "BGL BNP Paribas": {
+  "ats": null,
+  "checked": "2026-11-03"
+ },
+ "Clearstream": {
+  "ats": null,
+  "checked": "2026-11-03"
+ },
+ "European Investment Bank": {
+  "ats": null,
+  "checked": "2026-11-03"
+ },
+ "SES": {
+  "ats": "greenhouse",
+  "slug": "ses"
+ },
+ "PayPal": {
+  "ats": null,
+  "checked": "2026-11-03"
+ }
+}
