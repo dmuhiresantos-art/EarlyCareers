@@ -212,7 +212,7 @@ def workday(slug=None, host=None, tenant=None, site=None, **_):
                 seen.add(path)
                 out.append({
                     "title": j.get("title", ""),
-                    "location": j.get("locationsText", ""),
+                    "location": j.get("locationsText", "") + " " + " ".join(path.split("/")[2:3]).replace("-", " "),
                     "url": f"https://{host}/en-US/{site}{path}",
                     "posted": relative_date(j.get("postedOn", "")),
                     "extra": "",
