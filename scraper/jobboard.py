@@ -201,7 +201,7 @@ def workday(slug=None, host=None, tenant=None, site=None, **_):
         raise NotFound("workday necesita host, tenant y site")
     seen, out = set(), []
     for term in WORKDAY_TERMS:
-        for page in range(5):
+        for page in range(40):
             data = http("POST", f"https://{host}/wday/cxs/{tenant}/{site}/jobs",
                         json={"appliedFacets": {}, "limit": 20, "offset": page * 20, "searchText": term})
             posts = data.get("jobPostings", [])
