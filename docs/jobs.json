@@ -1,7 +1,52 @@
 {
- "updated": "2026-11-04T05:57+00:00",
+ "updated": "2026-11-05T06:01+00:00",
  "count": 142,
  "jobs": [
+  {
+   "id": "c2dd9c044738",
+   "title": "Pre Filled Syringe Process Engineering Intern",
+   "company": "Sanofi",
+   "sector": "medtech",
+   "location": "Waterford Waterford",
+   "countries": [
+    "IE"
+   ],
+   "type": "stage",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Waterford/Pre-Filled-Syringe-Process-Engineering-Intern_R2875164",
+   "posted": "2026-11-05",
+   "first_seen": "2026-11-05",
+   "source": "workday"
+  },
+  {
+   "id": "e44f2c5b148c",
+   "title": "stage 3 à 4 mois affaires pharmaceutiques",
+   "company": "Sanofi",
+   "sector": "medtech",
+   "location": "Lyon Lyon",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Lyon/stage-6-mois-affaires-pharmaceutiques_R2871290",
+   "posted": "2026-11-05",
+   "first_seen": "2026-11-05",
+   "source": "workday"
+  },
+  {
+   "id": "f9df81232ded",
+   "title": "Security Associate - Internship",
+   "company": "Alan",
+   "sector": "tech",
+   "location": "Paris",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://jobs.ashbyhq.com/alan/a725479a-de87-45d9-afe6-e3273dc6d704",
+   "posted": "2026-11-04",
+   "first_seen": "2026-11-05",
+   "source": "ashby"
+  },
   {
    "id": "0c0f43275585",
    "title": "stage 6 mois informatique et données clinique",
@@ -61,6 +106,21 @@
    "posted": "2026-11-04",
    "first_seen": "2026-11-03",
    "source": "workday"
+  },
+  {
+   "id": "18dcf70845da",
+   "title": "AI Content & Knowledge Manager Intern",
+   "company": "Back Market",
+   "sector": "tech",
+   "location": "Paris",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://jobs.ashbyhq.com/backmarket/ae0b69b8-4051-4a31-a11f-f624be54b4e8",
+   "posted": "2026-11-04",
+   "first_seen": "2026-11-03",
+   "source": "ashby"
   },
   {
    "id": "f83a1fc6b860",
@@ -243,21 +303,6 @@
    "source": "workday"
   },
   {
-   "id": "089ef9ad1dc9",
-   "title": "Stagiaire Ingénieur(e) Matériaux F/H",
-   "company": "Medtronic",
-   "sector": "medtech",
-   "location": "Trevoux, Rhône Alpes, France Trevoux Rhne Alpes France",
-   "countries": [
-    "FR"
-   ],
-   "type": "stage",
-   "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Trevoux-Rhne-Alpes-France/Stagiaire-Ingnieur-e--Matriaux-F-H_R80017-1",
-   "posted": "2026-10-30",
-   "first_seen": "2026-11-03",
-   "source": "workday"
-  },
-  {
    "id": "a7d0191279fd",
    "title": "APAC Marketing Operations Intern (Japanese required)",
    "company": "Back Market",
@@ -271,21 +316,6 @@
    "posted": "2026-10-30",
    "first_seen": "2026-11-03",
    "source": "ashby"
-  },
-  {
-   "id": "6e74167ce5aa",
-   "title": "Sustainability & Facilities Intern",
-   "company": "Sanofi",
-   "sector": "medtech",
-   "location": "Waterford Waterford",
-   "countries": [
-    "IE"
-   ],
-   "type": "stage",
-   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Waterford/Clean-Utilities---Sustainability-Intern_R2874752",
-   "posted": "2026-10-29",
-   "first_seen": "2026-11-03",
-   "source": "workday"
   },
   {
    "id": "290efe66e69a",
@@ -318,6 +348,21 @@
    "source": "workday"
   },
   {
+   "id": "6e74167ce5aa",
+   "title": "Sustainability & Facilities Intern",
+   "company": "Sanofi",
+   "sector": "medtech",
+   "location": "Waterford Waterford",
+   "countries": [
+    "IE"
+   ],
+   "type": "stage",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Waterford/Clean-Utilities---Sustainability-Intern_R2874752",
+   "posted": "2026-10-29",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
    "id": "b277ba252270",
    "title": "Summer Intern 2027 - Alan Summer Internship Program",
    "company": "Alan",
@@ -344,21 +389,6 @@
    "type": "stage",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Montpellier/stage-6-mois-en-bioanalyse-par-chromatographie-liquide_R2874943",
    "posted": "2026-10-28",
-   "first_seen": "2026-11-03",
-   "source": "workday"
-  },
-  {
-   "id": "f30738b6548a",
-   "title": "stage 6 mois affaires pharmaceutiques",
-   "company": "Sanofi",
-   "sector": "medtech",
-   "location": "Lyon Lyon",
-   "countries": [
-    "FR"
-   ],
-   "type": "stage",
-   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Lyon/stage-6-mois-affaires-pharmaceutiques_R2871290",
-   "posted": "2026-10-27",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
@@ -663,21 +693,6 @@
    "source": "workday"
   },
   {
-   "id": "18dcf70845da",
-   "title": "AI Content & Knowledge Manager Intern",
-   "company": "Back Market",
-   "sector": "tech",
-   "location": "Paris",
-   "countries": [
-    "FR"
-   ],
-   "type": "stage",
-   "url": "https://jobs.ashbyhq.com/backmarket/ae0b69b8-4051-4a31-a11f-f624be54b4e8",
-   "posted": "2026-10-19",
-   "first_seen": "2026-11-03",
-   "source": "ashby"
-  },
-  {
    "id": "cbca1523a20a",
    "title": "Affiliation Marketing Intern",
    "company": "Back Market",
@@ -796,21 +811,6 @@
    "posted": "2026-10-14",
    "first_seen": "2026-11-03",
    "source": "ashby"
-  },
-  {
-   "id": "a7cb51528b6c",
-   "title": "stage 6 mois automatisation digitale",
-   "company": "Sanofi",
-   "sector": "medtech",
-   "location": "Lyon Lyon",
-   "countries": [
-    "FR"
-   ],
-   "type": "stage",
-   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Lyon/stage-6-mois-dveloppement-logiciel_R2874009",
-   "posted": "2026-10-13",
-   "first_seen": "2026-11-03",
-   "source": "workday"
   },
   {
    "id": "fdddc8802946",
@@ -1123,7 +1123,7 @@
    ],
    "type": "stage",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Lyon/internship-6-months---global-vaccines-public-affairs_R2872836",
-   "posted": "2026-10-05",
+   "posted": "2026-10-06",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
@@ -1138,7 +1138,7 @@
    ],
    "type": "stage",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Frankfurt-am-Main/Werkstudent-in-IT-Data-Sciences---Wintersemesterferien-2026-2027_R2868647",
-   "posted": "2026-10-05",
+   "posted": "2026-10-06",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
@@ -1153,7 +1153,7 @@
    ],
    "type": "stage",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Frankfurt-am-Main/Werkstudent-in-Produktion---Wintersemesterferien-2026-2027_R2868640",
-   "posted": "2026-10-05",
+   "posted": "2026-10-06",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
@@ -1168,7 +1168,7 @@
    ],
    "type": "stage",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Frankfurt-am-Main/Werkstudent-in-Forschung-und-Entwicklung---Wintersemesterferien-2026-2027_R2868643",
-   "posted": "2026-10-05",
+   "posted": "2026-10-06",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
@@ -1183,7 +1183,7 @@
    ],
    "type": "stage",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Frankfurt-am-Main/Werkstudent-in-Administration---Wintersemesterferien-2026-2027_R2868653",
-   "posted": "2026-10-05",
+   "posted": "2026-10-06",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
@@ -1198,7 +1198,7 @@
    ],
    "type": "stage",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Frankfurt-am-Main/Werkstudent-in-Engineering-Wintersemesterferien-2026-2027_R2868645",
-   "posted": "2026-10-05",
+   "posted": "2026-10-06",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
@@ -1213,7 +1213,7 @@
    ],
    "type": "stage",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Paris/stage-6-mois-fiscalit_R2871113",
-   "posted": "2026-10-05",
+   "posted": "2026-10-06",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
@@ -1228,7 +1228,7 @@
    ],
    "type": "stage",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Frankfurt-am-Main/Initiativbewerbung-Studierende-Praktikum--all-genders-_R2832474",
-   "posted": "2026-10-05",
+   "posted": "2026-10-06",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
@@ -1243,7 +1243,7 @@
    ],
    "type": "stage",
    "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Luxembourg-2-Blvd-K-Adenauer/Intern--Luxembourg-_R0450616",
-   "posted": "2026-10-05",
+   "posted": "2026-10-06",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
@@ -1258,7 +1258,7 @@
    ],
    "type": "stage",
    "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Paris/Corporate-Banking-Coverage-Intern--f-m-x-_R0445267",
-   "posted": "2026-10-05",
+   "posted": "2026-10-06",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
@@ -1273,7 +1273,7 @@
    ],
    "type": "stage",
    "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Paris/Structured-Trade-Export-Finance-Paris-Intern--f-m-x-_R0452722",
-   "posted": "2026-10-05",
+   "posted": "2026-10-06",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
@@ -1288,7 +1288,7 @@
    ],
    "type": "alternance",
    "url": "https://novartis.wd3.myworkdayjobs.com/en-US/Novartis_Careers/job/Paris-Headquarter-PHARMA/PRODUCT-MANAGER--H-F--en-alternance_REQ-10047858",
-   "posted": "2026-10-05",
+   "posted": "2026-10-06",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
@@ -1303,7 +1303,7 @@
    ],
    "type": "stage",
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Paris--France/Banking--Corporate-Banking--Placement-Analyst-Internship--Paris--France-2026_25908794",
-   "posted": "2026-10-05",
+   "posted": "2026-10-06",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
@@ -1318,7 +1318,7 @@
    ],
    "type": "stage",
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Paris--France/Banking--Corporate-Banking--Placement-Analyst-Internship--Paris---France-2027_26992458",
-   "posted": "2026-10-05",
+   "posted": "2026-10-06",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
@@ -1333,7 +1333,7 @@
    ],
    "type": "stage",
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Paris--France/Markets---Sales-and-Trading--Off-Cycle-Internship--Paris---France--2027_26992518",
-   "posted": "2026-10-05",
+   "posted": "2026-10-06",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
@@ -1348,7 +1348,7 @@
    ],
    "type": "stage",
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Paris--France/Banking--Financing--Equity-Capital-Markets--Placement-Analyst-Internship--Paris---France-2027_26992452",
-   "posted": "2026-10-05",
+   "posted": "2026-10-06",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
@@ -1363,7 +1363,7 @@
    ],
    "type": "stage",
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Paris--France/Banking--Financing--Debt-Capital-Markets--Placement-Analyst-Internship--Paris---France-2027_26992465",
-   "posted": "2026-10-05",
+   "posted": "2026-10-06",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
@@ -1378,7 +1378,7 @@
    ],
    "type": "stage",
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Paris--France/Banking--Corporate-Banking--Relationship-Analyst--Placement-Analyst-Internship--Paris---France-2027_26992471",
-   "posted": "2026-10-05",
+   "posted": "2026-10-06",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
@@ -1393,7 +1393,7 @@
    ],
    "type": "stage",
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Paris--France/Banking--Investment-Banking--Financial-Institution-Group--Placement-Analyst-Internship--Paris---France-2027_26992470",
-   "posted": "2026-10-05",
+   "posted": "2026-10-06",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
@@ -1408,7 +1408,7 @@
    ],
    "type": "stage",
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Paris--France/Banking--Corporate-Banking--Financial-Institutions-Group--FIG---Placement-Analyst-Internship--Paris---France-2027_26992453",
-   "posted": "2026-10-05",
+   "posted": "2026-10-06",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
@@ -1758,6 +1758,21 @@
    "source": "ashby"
   },
   {
+   "id": "55e948408105",
+   "title": "Accounting Apprentice",
+   "company": "Back Market",
+   "sector": "tech",
+   "location": "Paris",
+   "countries": [
+    "FR"
+   ],
+   "type": "alternance",
+   "url": "https://jobs.ashbyhq.com/backmarket/d587f77a-4f83-46a5-b7a8-ad8d9f686365",
+   "posted": "2026-09-16",
+   "first_seen": "2026-11-05",
+   "source": "ashby"
+  },
+  {
    "id": "00e022e4f56f",
    "title": "Brand & Marketing CRM Engagement Intern",
    "company": "Back Market",
@@ -1829,21 +1844,6 @@
    "type": "stage",
    "url": "https://jobs.ashbyhq.com/doctolib/379c40cf-24b2-4fdb-b0e1-6afeb91ef252",
    "posted": "2026-09-11",
-   "first_seen": "2026-11-03",
-   "source": "ashby"
-  },
-  {
-   "id": "ce75ab8cb7d4",
-   "title": "Fraud and Risk Officer Intern",
-   "company": "Back Market",
-   "sector": "tech",
-   "location": "Paris",
-   "countries": [
-    "FR"
-   ],
-   "type": "stage",
-   "url": "https://jobs.ashbyhq.com/backmarket/40a80901-b0e4-4bc5-8208-1c396c1c8384",
-   "posted": "2026-09-09",
    "first_seen": "2026-11-03",
    "source": "ashby"
   },
@@ -2203,7 +2203,7 @@
    "name": "Alan",
    "sector": "tech",
    "ats": "ashby",
-   "jobs": 9,
+   "jobs": 10,
    "error": null,
    "search_url": "https://www.google.com/search?q=Alan%20early%20careers%20graduate%20internship%20alternance"
   },
@@ -2347,7 +2347,7 @@
    "name": "Medtronic",
    "sector": "medtech",
    "ats": "workday",
-   "jobs": 3,
+   "jobs": 2,
    "error": null,
    "search_url": "https://www.google.com/search?q=Medtronic%20early%20careers%20graduate%20internship%20alternance"
   },
