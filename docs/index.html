@@ -32,7 +32,7 @@ h1{font-size:clamp(1.9rem,4.5vw,3rem);line-height:1.08;letter-spacing:-.025em;ma
 .tab[aria-selected=true]{color:var(--ink);border-bottom-color:var(--accent)}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
 .filters{display:grid;grid-template-columns:1fr;gap:12px;margin-bottom:16px}
-@media (min-width:720px){.filters{grid-template-columns:2fr 1fr 1fr}}
+@media (min-width:720px){.filters{grid-template-columns:2fr 1fr 1fr 1fr}}
 input[type=search],select{width:100%;font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px 12px}
 .types{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:8px}
 .chip{display:inline-flex;align-items:center;gap:8px;font:inherit;font-weight:600;font-size:.9rem;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:999px;padding:6px 12px;cursor:pointer}
@@ -75,7 +75,7 @@ tr:last-child td{border-bottom:0}
     <div class="filters">
       <input type="search" id="q" placeholder="Search title, company or city" aria-label="Search offers">
       <select id="country" aria-label="Country"><option value="">All countries</option></select>
-      <select id="sector" aria-label="Sector"><option value="">All sectors</option></select>
+      <select id="sector" aria-label="Sector"><option value="">All sectors</option></select>      <select id="cat" aria-label="Area"><option value="">All areas</option></select>
     </div>
     <div class="types" id="types"></div>
     <div class="meta" id="count" aria-live="polite"></div>
@@ -92,7 +92,7 @@ tr:last-child td{border-bottom:0}
 const TYPES = {stage:"Internship / stage", alternance:"Alternance / apprenticeship", junior:"Junior / graduate", vie:"VIE"};
 const COUNTRIES = {FR:"France", DE:"Germany", CH:"Switzerland", IE:"Ireland", LU:"Luxembourg"};
 const SECTORS = {medtech:"Medtech & health", finance:"Banking & finance", tech:"Tech & AI"};
-const state = {q:"", country:"", sector:"", types:new Set(), onlyNew:false};
+const state = {q:"", country:"", sector:"", cat:"", types:new Set(), onlyNew:false}; const CATS = {sales:"Sales & business development", marketing:"Marketing & communication", hr:"HR & people", finance:"Finance & banking", science:"Science, health & quality", ops:"Operations & supply chain", tech:"Engineering, data & IT", other:"Other"}; const CAT_RE = [["sales",/sales|business develop|vente|commercial|vertrieb|customer success|revenue/i],["marketing",/marketing|brand|communicat|content|seo|social media|public affairs|kommunikation/i],["hr",/\bhr\b|human resources|people|talent|recruit|ressources humaines/i],["finance",/financ|bank|trading|markets|risk|audit|accounting|fp&a|controll|treasury|wealth|capital|fiscalit|\btax|compliance|insurance|assurance/i],["science",/clinic|research|laborat|r&d|biolog|pharma|regulatory|toxicolog|chem|medical|scientist|forschung|quality|qualit/i],["ops",/operations|supply|logistic|procurement|production|manufactur|facilities|process|produktion|planning/i],["tech",/software|engineer|develop|devops|security|cyber|data|machine learning|\bai\b|\bit\b|informati|programm|cloud|fullstack|automation|digital/i]]; const catOf = (j) => { for (const [k, re] of CAT_RE) if (re.test(j.title)) return k; return "other"; };
 let DATA = {jobs:[], companies:[], updated:null};
 
 const $ = (id) => document.getElementById(id);
@@ -110,7 +110,7 @@ const daysAgo = (iso) => iso ? (Date.now() - new Date(iso + "T00:00:00").getTime
 
 function initFilters() {
   for (const [k, v] of Object.entries(COUNTRIES)) $("country").append(el("option", {value:k, text:v}));
-  for (const [k, v] of Object.entries(SECTORS)) $("sector").append(el("option", {value:k, text:v}));
+  for (const [k, v] of Object.entries(SECTORS)) $("sector").append(el("option", {value:k, text:v})); for (const [k, v] of Object.entries(CATS)) $("cat").append(el("option", {value:k, text:v})); $("cat").onchange = (e) => { state.cat = e.target.value; render(); };
   const box = $("types");
   for (const [k, v] of Object.entries(TYPES)) {
     const b = el("button", {class:"chip", type:"button", "aria-pressed":"false", style:`--c:var(--${k})`}, el("i"), v);
@@ -133,7 +133,7 @@ function render() {
   const list = $("jobs"); list.replaceChildren();
   const rows = DATA.jobs.filter(j =>
     (!state.country || j.countries.includes(state.country)) &&
-    (!state.sector || j.sector === state.sector) &&
+    (!state.sector || j.sector === state.sector) && (!state.cat || catOf(j) === state.cat) &&
     (!state.types.size || state.types.has(j.type)) &&
     (!state.onlyNew || daysAgo(j.first_seen) <= 7) &&
     (!state.q || `${j.title} ${j.company} ${j.location}`.toLowerCase().includes(state.q)));
