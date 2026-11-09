@@ -48,7 +48,7 @@ def http(method: str, url: str, **kw):
             try:
                 return r.json()
             except ValueError:
-                raise NotFound(f"no-json {url}")
+                time.sleep(2 * (attempt + 1)); continue
         if r.status_code in (429, 500, 502, 503, 504):
             time.sleep(2 * (attempt + 1))
             continue
