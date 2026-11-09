@@ -51,3 +51,25 @@ companies:
   - {name: European Investment Bank, sector: finance}
   - {name: Back Market, sector: tech}
   - {name: PayPal, sector: tech}
+  - {name: Qonto, sector: finance}
+  - {name: Pennylane, sector: finance}
+  - {name: Payfit, sector: tech}
+  - {name: Swile, sector: tech}
+  - {name: BlaBlaCar, sector: tech}
+  - {name: Owkin, sector: medtech}
+  - {name: Withings, sector: medtech}
+  - {name: Spendesk, sector: finance}
+  - {name: Aircall, sector: tech}
+  - {name: Trade Republic, sector: finance}
+  - {name: Ada Health, sector: medtech}
+  - {name: Delivery Hero, sector: tech}
+  - {name: Mambu, sector: finance}
+  - {name: Raisin, sector: finance}
+  - {name: Taxfix, sector: finance}
+  - {name: Sophia Genetics, sector: medtech}
+  - {name: Nexthink, sector: tech}
+  - {name: Beekeeper, sector: tech}
+  - {name: Wayflyer, sector: finance}
+  - {name: Fenergo, sector: finance}
+  - {name: Flipdish, sector: tech}
+  
