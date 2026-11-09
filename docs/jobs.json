@@ -1,7 +1,112 @@
 {
- "updated": "2026-11-09T06:05+00:00",
- "count": 143,
+ "updated": "2026-11-09T15:26+00:00",
+ "count": 148,
  "jobs": [
+  {
+   "id": "20a9d9413195",
+   "title": "Commercial Project Specialist - Insulins & Established Products Franchise - VIE Contract",
+   "company": "Sanofi",
+   "sector": "medtech",
+   "location": "Berlin Berlin",
+   "countries": [
+    "DE"
+   ],
+   "type": "vie",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Berlin/Commercial-Project-Specialist---Insulins---Established-Products-Franchise---VIE-Contract_R2874997",
+   "posted": "2026-11-09",
+   "first_seen": "2026-11-09",
+   "source": "workday"
+  },
+  {
+   "id": "d4905473dbfc",
+   "title": "Werkstudent (m/w/d) Manufacturing Engineering",
+   "company": "Medtronic",
+   "sector": "medtech",
+   "location": "Deggendorf, Bavaria, Germany Deggendorf Bavaria Germany",
+   "countries": [
+    "DE"
+   ],
+   "type": "stage",
+   "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Deggendorf-Bavaria-Germany/Student-Worker-Manufacturing-Engineering_R72167-1",
+   "posted": "2026-11-09",
+   "first_seen": "2026-11-09",
+   "source": "workday"
+  },
+  {
+   "id": "70ba72819549",
+   "title": "Services - Full-Time Analyst, Ireland - Dublin, 2027 (2026 Summer Intern Converts Only)",
+   "company": "Citi",
+   "sector": "finance",
+   "location": "Dublin  Ireland Dublin  Ireland",
+   "countries": [
+    "IE"
+   ],
+   "type": "stage",
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dublin--Ireland/Services---Full-Time-Analyst--Ireland---Dublin--2027--2026-Summer-Intern-Converts-Only-_26995666",
+   "posted": "2026-11-09",
+   "first_seen": "2026-11-09",
+   "source": "workday"
+  },
+  {
+   "id": "f2ba3ed06599",
+   "title": "Zum 1. Oktober suchen wir Dich (all genders) für ein Duales Studium Informatik (Bachelor of Science)",
+   "company": "Sanofi",
+   "sector": "medtech",
+   "location": "Frankfurt am Main Frankfurt am Main",
+   "countries": [
+    "DE"
+   ],
+   "type": "alternance",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Frankfurt-am-Main/Zum-1-Oktober-suchen-wir-Dich--all-genders--fr-ein-Duales-Studium-Informatik--Bachelor-of-Science-_R2851136",
+   "posted": "2026-11-09",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
+   "id": "c06a959bfb5e",
+   "title": "stage 6 mois  coordination innovation",
+   "company": "Sanofi",
+   "sector": "medtech",
+   "location": "Lyon Lyon",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Lyon/stage-6-mois--coordination-innovation_R2871944",
+   "posted": "2026-11-09",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
+   "id": "ddd6d9091d2c",
+   "title": "Zum 1. Oktober 2027 suchen wir Dich (all genders) für ein Duales Studium Business Information Management (Bachelor of Science)",
+   "company": "Sanofi",
+   "sector": "medtech",
+   "location": "Frankfurt am Main Frankfurt am Main",
+   "countries": [
+    "DE"
+   ],
+   "type": "alternance",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Frankfurt-am-Main/Zum-1-Oktober-2027-suchen-wir-Dich--all-genders--fr-ein-Duales-Studium-Business-Information-Management--Bachelor-of-Science-_R2869451",
+   "posted": "2026-11-09",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
+   "id": "aec2175aefa1",
+   "title": "Initiativbewerbung Studierende Praktikum (all genders)",
+   "company": "Sanofi",
+   "sector": "medtech",
+   "location": "2 Locations Frankfurt am Main",
+   "countries": [
+    "DE"
+   ],
+   "type": "stage",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Frankfurt-am-Main/Initiativbewerbung-Studierende-Praktikum--all-genders-_R2832474",
+   "posted": "2026-11-09",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
   {
    "id": "ab2b8d0857fb",
    "title": "Quality Graduate",
@@ -13,7 +118,7 @@
    ],
    "type": "junior",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Waterford/Quality-Graduate_R2877814",
-   "posted": "2026-11-07",
+   "posted": "2026-11-06",
    "first_seen": "2026-11-07",
    "source": "workday"
   },
@@ -28,7 +133,7 @@
    ],
    "type": "junior",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Waterford/Manufacturing-Science-and-Technology--MSAT--Graduate_R2877813",
-   "posted": "2026-11-07",
+   "posted": "2026-11-06",
    "first_seen": "2026-11-07",
    "source": "workday"
   },
@@ -43,7 +148,7 @@
    ],
    "type": "junior",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Waterford/Engineering-Graduate_R2877822",
-   "posted": "2026-11-07",
+   "posted": "2026-11-06",
    "first_seen": "2026-11-07",
    "source": "workday"
   },
@@ -58,7 +163,7 @@
    ],
    "type": "junior",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Waterford/Automation-Graduate_R2877816",
-   "posted": "2026-11-07",
+   "posted": "2026-11-06",
    "first_seen": "2026-11-07",
    "source": "workday"
   },
@@ -73,38 +178,8 @@
    ],
    "type": "junior",
    "url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Kilkenny-Ireland/Software-Engineer--Cyber-Security--Early-Career-Entry-Program-2027_R-800609-1",
-   "posted": "2026-11-07",
+   "posted": "2026-11-06",
    "first_seen": "2026-11-07",
-   "source": "workday"
-  },
-  {
-   "id": "e8cd699729e3",
-   "title": "Cyber Security Early Career Entry Program 2027",
-   "company": "State Street",
-   "sector": "finance",
-   "location": "Kilkenny, Ireland Kilkenny Ireland",
-   "countries": [
-    "IE"
-   ],
-   "type": "junior",
-   "url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Kilkenny-Ireland/Cyber-Security-Operations-Center-Early-Career-Placement-Program-2027_R-800620",
-   "posted": "2026-11-07",
-   "first_seen": "2026-11-04",
-   "source": "workday"
-  },
-  {
-   "id": "4464d6c18df7",
-   "title": "stage 6 mois assurance qualité conditionnement clinique",
-   "company": "Sanofi",
-   "sector": "medtech",
-   "location": "Montpellier Montpellier",
-   "countries": [
-    "FR"
-   ],
-   "type": "stage",
-   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Montpellier/stage-6-mois-assurance-qualit-conditionnement-clinique_R2874079",
-   "posted": "2026-11-07",
-   "first_seen": "2026-11-03",
    "source": "workday"
   },
   {
@@ -123,6 +198,36 @@
    "source": "ashby"
   },
   {
+   "id": "e8cd699729e3",
+   "title": "Cyber Security Early Career Entry Program 2027",
+   "company": "State Street",
+   "sector": "finance",
+   "location": "Kilkenny, Ireland Kilkenny Ireland",
+   "countries": [
+    "IE"
+   ],
+   "type": "junior",
+   "url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Kilkenny-Ireland/Cyber-Security-Operations-Center-Early-Career-Placement-Program-2027_R-800620",
+   "posted": "2026-11-06",
+   "first_seen": "2026-11-04",
+   "source": "workday"
+  },
+  {
+   "id": "4464d6c18df7",
+   "title": "stage 6 mois assurance qualité conditionnement clinique",
+   "company": "Sanofi",
+   "sector": "medtech",
+   "location": "Montpellier Montpellier",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Montpellier/stage-6-mois-assurance-qualit-conditionnement-clinique_R2874079",
+   "posted": "2026-11-06",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
    "id": "74295c03d537",
    "title": "stage 6 mois support qualité",
    "company": "Sanofi",
@@ -133,7 +238,7 @@
    ],
    "type": "stage",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Montpellier/stage-6-mois-support-qualit_R2874071",
-   "posted": "2026-11-06",
+   "posted": "2026-11-05",
    "first_seen": "2026-11-06",
    "source": "workday"
   },
@@ -148,7 +253,7 @@
    ],
    "type": "stage",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Waterford/Quality-Excellence-Intern_R2873348",
-   "posted": "2026-11-06",
+   "posted": "2026-11-05",
    "first_seen": "2026-11-06",
    "source": "workday"
   },
@@ -163,7 +268,7 @@
    ],
    "type": "stage",
    "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Zrich-Uraniastrasse-9/O-A-Swiss-Coverage-Intern--f-m-x-_R0453418",
-   "posted": "2026-11-06",
+   "posted": "2026-11-05",
    "first_seen": "2026-11-06",
    "source": "workday"
   },
@@ -178,7 +283,7 @@
    ],
    "type": "alternance",
    "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Paris-le-de-France-France/Stagiaire-Application-IT-Sant-F-H_R81004-1",
-   "posted": "2026-11-06",
+   "posted": "2026-11-05",
    "first_seen": "2026-11-06",
    "source": "workday"
   },
@@ -193,7 +298,7 @@
    ],
    "type": "stage",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Waterford/Pre-Filled-Syringe-Process-Engineering-Intern_R2875164",
-   "posted": "2026-11-05",
+   "posted": "2026-11-04",
    "first_seen": "2026-11-05",
    "source": "workday"
   },
@@ -208,7 +313,7 @@
    ],
    "type": "stage",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Lyon/stage-6-mois-affaires-pharmaceutiques_R2871290",
-   "posted": "2026-11-05",
+   "posted": "2026-11-04",
    "first_seen": "2026-11-05",
    "source": "workday"
   },
@@ -228,6 +333,21 @@
    "source": "ashby"
   },
   {
+   "id": "18dcf70845da",
+   "title": "AI Content & Knowledge Manager Intern",
+   "company": "Back Market",
+   "sector": "tech",
+   "location": "Paris",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://jobs.ashbyhq.com/backmarket/ae0b69b8-4051-4a31-a11f-f624be54b4e8",
+   "posted": "2026-11-04",
+   "first_seen": "2026-11-03",
+   "source": "ashby"
+  },
+  {
    "id": "0c0f43275585",
    "title": "stage 6 mois informatique et données clinique",
    "company": "Sanofi",
@@ -238,7 +358,7 @@
    ],
    "type": "stage",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Montpellier/stage-6-mois-science-des-donnes-clinique_R2873753",
-   "posted": "2026-11-04",
+   "posted": "2026-11-03",
    "first_seen": "2026-11-04",
    "source": "workday"
   },
@@ -253,39 +373,9 @@
    ],
    "type": "junior",
    "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Berlin-Unter-den-Linden-13-15-O/Junior-Berater--d-m-w--Wealth-Management_R0428701-1",
-   "posted": "2026-11-04",
+   "posted": "2026-11-03",
    "first_seen": "2026-11-04",
    "source": "workday"
-  },
-  {
-   "id": "9469fcab72c8",
-   "title": "stage 6 mois analyste supply chain clinique",
-   "company": "Sanofi",
-   "sector": "medtech",
-   "location": "Montpellier Montpellier",
-   "countries": [
-    "FR"
-   ],
-   "type": "stage",
-   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Montpellier/stage-6-mois-analyste-supply-chain-clinique_R2873737",
-   "posted": "2026-11-04",
-   "first_seen": "2026-11-03",
-   "source": "workday"
-  },
-  {
-   "id": "18dcf70845da",
-   "title": "AI Content & Knowledge Manager Intern",
-   "company": "Back Market",
-   "sector": "tech",
-   "location": "Paris",
-   "countries": [
-    "FR"
-   ],
-   "type": "stage",
-   "url": "https://jobs.ashbyhq.com/backmarket/ae0b69b8-4051-4a31-a11f-f624be54b4e8",
-   "posted": "2026-11-04",
-   "first_seen": "2026-11-03",
-   "source": "ashby"
   },
   {
    "id": "f83a1fc6b860",
@@ -303,6 +393,21 @@
    "source": "greenhouse"
   },
   {
+   "id": "9469fcab72c8",
+   "title": "stage 6 mois analyste supply chain clinique",
+   "company": "Sanofi",
+   "sector": "medtech",
+   "location": "Montpellier Montpellier",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Montpellier/stage-6-mois-analyste-supply-chain-clinique_R2873737",
+   "posted": "2026-11-03",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
    "id": "1e47bdf488c2",
    "title": "Apprentice – Procurement mainly SaaS",
    "company": "Contentsquare",
@@ -316,36 +421,6 @@
    "posted": "2026-11-03",
    "first_seen": "2026-11-03",
    "source": "lever"
-  },
-  {
-   "id": "514d8ba5b5d3",
-   "title": "Intern, Corporate Governance (6 Months)",
-   "company": "N26",
-   "sector": "finance",
-   "location": "Berlin",
-   "countries": [
-    "DE"
-   ],
-   "type": "stage",
-   "url": "https://n26.com/en-eu/careers/positions/8330667?gh_jid=8330667",
-   "posted": "2026-11-03",
-   "first_seen": "2026-11-03",
-   "source": "greenhouse"
-  },
-  {
-   "id": "f127ec09b6e4",
-   "title": "Intern: Graduate( Non-Tech)",
-   "company": "Medtronic",
-   "sector": "medtech",
-   "location": "Trevoux, Rhône Alpes, France Trevoux Rhne Alpes France",
-   "countries": [
-    "FR"
-   ],
-   "type": "stage",
-   "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Trevoux-Rhne-Alpes-France/Intern--Graduate--Non-Tech-_R80662",
-   "posted": "2026-11-03",
-   "first_seen": "2026-11-03",
-   "source": "workday"
   },
   {
    "id": "423477970d45",
@@ -363,36 +438,6 @@
    "source": "ashby"
   },
   {
-   "id": "313f7cb7ffc7",
-   "title": "FP&A Corporate Apprentice",
-   "company": "Contentsquare",
-   "sector": "tech",
-   "location": "Paris Area, France",
-   "countries": [
-    "FR"
-   ],
-   "type": "alternance",
-   "url": "https://jobs.lever.co/contentsquare/3a6d755a-349e-4e67-bfc6-cfc11b9fd733",
-   "posted": "2026-11-02",
-   "first_seen": "2026-11-03",
-   "source": "lever"
-  },
-  {
-   "id": "ddd6d9091d2c",
-   "title": "Zum 1. Oktober 2027 suchen wir Dich (all genders) für ein Duales Studium Business Information Management (Bachelor of Science)",
-   "company": "Sanofi",
-   "sector": "medtech",
-   "location": "Frankfurt am Main Frankfurt am Main",
-   "countries": [
-    "DE"
-   ],
-   "type": "alternance",
-   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Frankfurt-am-Main/Zum-1-Oktober-2027-suchen-wir-Dich--all-genders--fr-ein-Duales-Studium-Business-Information-Management--Bachelor-of-Science-_R2869451",
-   "posted": "2026-10-31",
-   "first_seen": "2026-11-03",
-   "source": "workday"
-  },
-  {
    "id": "3bf27deb9708",
    "title": "stage 6 mois – support production projet",
    "company": "Sanofi",
@@ -403,22 +448,7 @@
    ],
    "type": "stage",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Lyon/stage-6-mois---support-production-projet_R2876745",
-   "posted": "2026-10-31",
-   "first_seen": "2026-11-03",
-   "source": "workday"
-  },
-  {
-   "id": "7846472885ed",
-   "title": "stage 6 mois – support production biotechnologique amélioration continue",
-   "company": "Sanofi",
-   "sector": "medtech",
-   "location": "Lyon Lyon",
-   "countries": [
-    "FR"
-   ],
-   "type": "stage",
-   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Lyon/stage-6-mois---support-production-biotechnologique-amlioration-continue_R2875719",
-   "posted": "2026-10-31",
+   "posted": "2026-10-30",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
@@ -433,21 +463,6 @@
    ],
    "type": "stage",
    "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Mollsfeld-Meerbusch-Germany/Werkstudent--m-w-d--Healthcare---Reimbursement-Operations_R80669-1",
-   "posted": "2026-10-31",
-   "first_seen": "2026-11-03",
-   "source": "workday"
-  },
-  {
-   "id": "7c3a574eb1f7",
-   "title": "internship 6 months communication and engagement support",
-   "company": "Sanofi",
-   "sector": "medtech",
-   "location": "Lyon Lyon",
-   "countries": [
-    "FR"
-   ],
-   "type": "stage",
-   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Lyon/internship-6-months-communication-and-transformation-support_R2874254",
    "posted": "2026-10-30",
    "first_seen": "2026-11-03",
    "source": "workday"
@@ -468,46 +483,16 @@
    "source": "ashby"
   },
   {
-   "id": "290efe66e69a",
-   "title": "internship 6 months  product strategy and operations",
+   "id": "7c3a574eb1f7",
+   "title": "internship 6 months communication and engagement support",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Paris Paris",
+   "location": "Lyon Lyon",
    "countries": [
     "FR"
    ],
    "type": "stage",
-   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Paris/internship-6-months--product-strategy-and-operations_R2873413",
-   "posted": "2026-10-29",
-   "first_seen": "2026-11-03",
-   "source": "workday"
-  },
-  {
-   "id": "8976d8503e82",
-   "title": "Praktikum im Bereich Marketing - Vaccines (all genders) befristet auf 12 Monate",
-   "company": "Sanofi",
-   "sector": "medtech",
-   "location": "Rotkreuz Rotkreuz",
-   "countries": [
-    "CH"
-   ],
-   "type": "stage",
-   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Rotkreuz/Praktikum-im-Bereich-Marketing---Vaccines--all-genders--befristet-auf-12-Monate_R2875494",
-   "posted": "2026-10-29",
-   "first_seen": "2026-11-03",
-   "source": "workday"
-  },
-  {
-   "id": "6e74167ce5aa",
-   "title": "Sustainability & Facilities Intern",
-   "company": "Sanofi",
-   "sector": "medtech",
-   "location": "Waterford Waterford",
-   "countries": [
-    "IE"
-   ],
-   "type": "stage",
-   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Waterford/Clean-Utilities---Sustainability-Intern_R2874752",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Lyon/internship-6-months-communication-and-transformation-support_R2874254",
    "posted": "2026-10-29",
    "first_seen": "2026-11-03",
    "source": "workday"
@@ -528,6 +513,36 @@
    "source": "ashby"
   },
   {
+   "id": "8976d8503e82",
+   "title": "Praktikum im Bereich Marketing - Vaccines (all genders) befristet auf 12 Monate",
+   "company": "Sanofi",
+   "sector": "medtech",
+   "location": "Rotkreuz Rotkreuz",
+   "countries": [
+    "CH"
+   ],
+   "type": "stage",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Rotkreuz/Praktikum-im-Bereich-Marketing---Vaccines--all-genders--befristet-auf-12-Monate_R2875494",
+   "posted": "2026-10-28",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
+   "id": "6e74167ce5aa",
+   "title": "Sustainability & Facilities Intern",
+   "company": "Sanofi",
+   "sector": "medtech",
+   "location": "Waterford Waterford",
+   "countries": [
+    "IE"
+   ],
+   "type": "stage",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Waterford/Clean-Utilities---Sustainability-Intern_R2874752",
+   "posted": "2026-10-28",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
    "id": "609f885f5f6f",
    "title": "stage 6 mois en bioanalyse par spectrométrie de masse",
    "company": "Sanofi",
@@ -538,7 +553,7 @@
    ],
    "type": "stage",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Montpellier/stage-6-mois-en-bioanalyse-par-chromatographie-liquide_R2874943",
-   "posted": "2026-10-28",
+   "posted": "2026-10-27",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
@@ -598,21 +613,6 @@
    ],
    "type": "stage",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Lyon/internship-6-months-data-and-ia-engineer_R2873938",
-   "posted": "2026-10-24",
-   "first_seen": "2026-11-03",
-   "source": "workday"
-  },
-  {
-   "id": "6bb2d73a50bb",
-   "title": "Manufacturing Sciences Intern",
-   "company": "Sanofi",
-   "sector": "medtech",
-   "location": "Waterford Waterford",
-   "countries": [
-    "IE"
-   ],
-   "type": "stage",
-   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Waterford/Manufacturing-Sciences-Intern_R2875201",
    "posted": "2026-10-23",
    "first_seen": "2026-11-03",
    "source": "workday"
@@ -633,21 +633,6 @@
    "source": "ashby"
   },
   {
-   "id": "cabab7019737",
-   "title": "Swiss Graduate Programme 2027_Private Bank (BLIS)",
-   "company": "Deutsche Bank",
-   "sector": "finance",
-   "location": "Zürich Prime Tower Zrich Prime Tower",
-   "countries": [
-    "CH"
-   ],
-   "type": "junior",
-   "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Zrich-Prime-Tower/Swiss-Graduate-Programme-2027-Private-Bank--BLIS-_R0450493",
-   "posted": "2026-10-23",
-   "first_seen": "2026-11-03",
-   "source": "workday"
-  },
-  {
    "id": "0905ca6f437b",
    "title": "(Junior) Customs Manager",
    "company": "Helsing",
@@ -663,31 +648,31 @@
    "source": "greenhouse"
   },
   {
-   "id": "912ad2f8ce04",
-   "title": "stage 6 mois – implémentation de nouvelles technologies analytiques",
+   "id": "6bb2d73a50bb",
+   "title": "Manufacturing Sciences Intern",
    "company": "Sanofi",
    "sector": "medtech",
-   "location": "Lyon Lyon",
+   "location": "Waterford Waterford",
    "countries": [
-    "FR"
+    "IE"
    ],
    "type": "stage",
-   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Lyon/stagiaire_R2873165",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Waterford/Manufacturing-Sciences-Intern_R2875201",
    "posted": "2026-10-22",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
   {
-   "id": "c06a959bfb5e",
-   "title": "stage 6 mois  coordination innovation",
-   "company": "Sanofi",
-   "sector": "medtech",
-   "location": "Lyon Lyon",
+   "id": "cabab7019737",
+   "title": "Swiss Graduate Programme 2027_Private Bank (BLIS)",
+   "company": "Deutsche Bank",
+   "sector": "finance",
+   "location": "Zürich Prime Tower Zrich Prime Tower",
    "countries": [
-    "FR"
+    "CH"
    ],
-   "type": "stage",
-   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Lyon/stage-6-mois--coordination-innovation_R2871944",
+   "type": "junior",
+   "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Zrich-Prime-Tower/Swiss-Graduate-Programme-2027-Private-Bank--BLIS-_R0450493",
    "posted": "2026-10-22",
    "first_seen": "2026-11-03",
    "source": "workday"
@@ -703,7 +688,7 @@
    ],
    "type": "stage",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Lyon/internship-6-months---public-affairs-vaccines_R2872743",
-   "posted": "2026-10-22",
+   "posted": "2026-10-21",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
@@ -718,21 +703,6 @@
    ],
    "type": "stage",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Lyon/stage-6-mois---conomie-de-la-sant-et-rsultats-cliniques_R2873842",
-   "posted": "2026-10-22",
-   "first_seen": "2026-11-03",
-   "source": "workday"
-  },
-  {
-   "id": "4d0526a8cdd7",
-   "title": "FX Risk Management Sales Intern (f/m/x)",
-   "company": "Deutsche Bank",
-   "sector": "finance",
-   "location": "Paris Paris",
-   "countries": [
-    "FR"
-   ],
-   "type": "stage",
-   "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Paris/FX-Risk-Management-Sales-Intern--f-m-x-_R0449103",
    "posted": "2026-10-21",
    "first_seen": "2026-11-03",
    "source": "workday"
@@ -753,18 +723,18 @@
    "source": "greenhouse"
   },
   {
-   "id": "2efa5ea3d12f",
-   "title": "stage 2 mois analyse de dissolution",
-   "company": "Sanofi",
+   "id": "1ed4ef5516a0",
+   "title": "Postgraduate Program Biologics",
+   "company": "Novartis",
    "sector": "medtech",
-   "location": "Montpellier Montpellier",
+   "location": "Basel (City) Basel City",
    "countries": [
-    "FR"
+    "CH"
    ],
-   "type": "stage",
-   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Montpellier/stage-5-mois-analyse-de-dissolution_R2874016",
+   "type": "junior",
+   "url": "https://novartis.wd3.myworkdayjobs.com/en-US/Novartis_Careers/job/Basel-City/Postgraduate-Program-Biologics_REQ-10090227-1",
    "posted": "2026-10-20",
-   "first_seen": "2026-11-03",
+   "first_seen": "2026-11-09",
    "source": "workday"
   },
   {
@@ -798,6 +768,36 @@
    "source": "ashby"
   },
   {
+   "id": "4d0526a8cdd7",
+   "title": "FX Risk Management Sales Intern (f/m/x)",
+   "company": "Deutsche Bank",
+   "sector": "finance",
+   "location": "Paris Paris",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Paris/FX-Risk-Management-Sales-Intern--f-m-x-_R0449103",
+   "posted": "2026-10-20",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
+   "id": "2efa5ea3d12f",
+   "title": "stage 2 mois analyse de dissolution",
+   "company": "Sanofi",
+   "sector": "medtech",
+   "location": "Montpellier Montpellier",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Montpellier/stage-5-mois-analyse-de-dissolution_R2874016",
+   "posted": "2026-10-19",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
    "id": "5b9f21f543c2",
    "title": "Sales Coverage Support Intern (f/m/x)",
    "company": "Deutsche Bank",
@@ -808,7 +808,7 @@
    ],
    "type": "stage",
    "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Geneva-Place-des-Bergues-3/Sales-Coverage-Support-Intern--f-m-x-_R0450629",
-   "posted": "2026-10-20",
+   "posted": "2026-10-19",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
@@ -828,6 +828,21 @@
    "source": "ashby"
   },
   {
+   "id": "78f494457d35",
+   "title": "Next Generation Scientist 2027",
+   "company": "Novartis",
+   "sector": "medtech",
+   "location": "Basel (City) Basel City",
+   "countries": [
+    "CH"
+   ],
+   "type": "junior",
+   "url": "https://novartis.wd3.myworkdayjobs.com/en-US/Novartis_Careers/job/Basel-City/Next-Generation-Scientist-2027_REQ-10089124-1",
+   "posted": "2026-10-15",
+   "first_seen": "2026-11-09",
+   "source": "workday"
+  },
+  {
    "id": "ede7d958bd60",
    "title": "internship 6 months  global market access and pricing",
    "company": "Sanofi",
@@ -838,7 +853,7 @@
    ],
    "type": "stage",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Lyon/internship-6-months--global-market-access-and-pricing_R2874165",
-   "posted": "2026-10-16",
+   "posted": "2026-10-15",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
@@ -853,7 +868,7 @@
    ],
    "type": "stage",
    "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Luxembourg-2-Blvd-K-Adenauer/Internship-Human-Resources_R0448764",
-   "posted": "2026-10-16",
+   "posted": "2026-10-15",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
@@ -868,7 +883,7 @@
    ],
    "type": "stage",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Lyon/stage-6-mois-communication-scientifique_R2874270",
-   "posted": "2026-10-15",
+   "posted": "2026-10-14",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
@@ -883,7 +898,7 @@
    ],
    "type": "stage",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Montpellier/stage-4--4-mois-programmation_R2873845",
-   "posted": "2026-10-15",
+   "posted": "2026-10-14",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
@@ -898,22 +913,7 @@
    ],
    "type": "stage",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Lyon/stage-6-mois-cyber-rsilience_R2874677",
-   "posted": "2026-10-15",
-   "first_seen": "2026-11-03",
-   "source": "workday"
-  },
-  {
-   "id": "8e323c049e39",
-   "title": "Internship Private Bank – Client Lifecyle Management Team",
-   "company": "Deutsche Bank",
-   "sector": "finance",
-   "location": "Luxembourg 2 Blvd K. Adenauer Luxembourg 2 Blvd K Adenauer",
-   "countries": [
-    "LU"
-   ],
-   "type": "stage",
-   "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Luxembourg-2-Blvd-K-Adenauer/Internship-Private-Bank---Client-Lifecyle-Management-Team_R0454925",
-   "posted": "2026-10-15",
+   "posted": "2026-10-14",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
@@ -933,6 +933,21 @@
    "source": "ashby"
   },
   {
+   "id": "8e323c049e39",
+   "title": "Internship Private Bank – Client Lifecyle Management Team",
+   "company": "Deutsche Bank",
+   "sector": "finance",
+   "location": "Luxembourg 2 Blvd K. Adenauer Luxembourg 2 Blvd K Adenauer",
+   "countries": [
+    "LU"
+   ],
+   "type": "stage",
+   "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Luxembourg-2-Blvd-K-Adenauer/Internship-Private-Bank---Client-Lifecyle-Management-Team_R0454925",
+   "posted": "2026-10-14",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
    "id": "fdddc8802946",
    "title": "stage 6 mois pilotage formation compliance supply chain clinique",
    "company": "Sanofi",
@@ -943,7 +958,7 @@
    ],
    "type": "stage",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Montpellier/stage-6-mois-pilotage-formation-compliance-supply-chain-clinique_R2873891",
-   "posted": "2026-10-13",
+   "posted": "2026-10-12",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
@@ -958,37 +973,7 @@
    ],
    "type": "stage",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Montpellier/stage-6-mois-projet-et-optimisation-processus-supply-chain_R2873779",
-   "posted": "2026-10-13",
-   "first_seen": "2026-11-03",
-   "source": "workday"
-  },
-  {
-   "id": "eb1a6d6dd952",
-   "title": "Structured Finance Sales Intern (f/m/x)",
-   "company": "Deutsche Bank",
-   "sector": "finance",
-   "location": "Paris Paris",
-   "countries": [
-    "FR"
-   ],
-   "type": "stage",
-   "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Paris/Structured-Finance-Sales-Intern--f-m-x-_R0453676",
-   "posted": "2026-10-13",
-   "first_seen": "2026-11-03",
-   "source": "workday"
-  },
-  {
-   "id": "2856bf7f6409",
-   "title": "Rates Flow & Solutions Sales Intern (f/m/x)",
-   "company": "Deutsche Bank",
-   "sector": "finance",
-   "location": "Paris Paris",
-   "countries": [
-    "FR"
-   ],
-   "type": "stage",
-   "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Paris/Rates-Flow---Solutions-Sales-Intern--f-m-x-_R0453673",
-   "posted": "2026-10-13",
+   "posted": "2026-10-12",
    "first_seen": "2026-11-03",
    "source": "workday"
   },
@@ -1038,6 +1023,156 @@
    "source": "ashby"
   },
   {
+   "id": "eb1a6d6dd952",
+   "title": "Structured Finance Sales Intern (f/m/x)",
+   "company": "Deutsche Bank",
+   "sector": "finance",
+   "location": "Paris Paris",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Paris/Structured-Finance-Sales-Intern--f-m-x-_R0453676",
+   "posted": "2026-10-12",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
+   "id": "2856bf7f6409",
+   "title": "Rates Flow & Solutions Sales Intern (f/m/x)",
+   "company": "Deutsche Bank",
+   "sector": "finance",
+   "location": "Paris Paris",
+   "countries": [
+    "FR"
+   ],
+   "type": "stage",
+   "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Paris/Rates-Flow---Solutions-Sales-Intern--f-m-x-_R0453673",
+   "posted": "2026-10-12",
+   "first_seen": "2026-11-03",
+   "source": "workday"
+  },
+  {
+   "id": "9244943c03af",
+   "title": "Lernende/r Chemie- und Pharmatechnologe/-technologin EFZ",
+   "company": "Novartis",
+   "sector": "medtech",
+   "location": "Basel (City) Basel City",
+   "countries": [
+    "CH"
+   ],
+   "type": "alternance",
+   "url": "https://novartis.wd3.myworkdayjobs.com/en-US/Novartis_Careers/job/Basel-City/Lernende-r-Chemie--und-Pharmatechnologe--technologin-EFZ_REQ-10084325",
+   "posted": "2026-10-10",
+   "first_seen": "2026-11-09",
+   "source": "workday"
+  },
+  {
+   "id": "beb6d0183302",
+   "title": "Lernende/r Kauffrau/-mann EBA",
+   "company": "Novartis",
+   "sector": "medtech",
+   "location": "Basel (City) Basel City",
+   "countries": [
+    "CH"
+   ],
+   "type": "alternance",
+   "url": "https://novartis.wd3.myworkdayjobs.com/en-US/Novartis_Careers/job/Basel-City/Lernende-r-Kauffrau--mann-EBA_REQ-10084332",
+   "posted": "2026-10-10",
+   "first_seen": "2026-11-09",
+   "source": "workday"
+  },
+  {
+   "id": "e37fdc5e509b",
+   "title": "Lernende/r Laborant/in EFZ Fachrichtung Chemie",
+   "company": "Novartis",
+   "sector": "medtech",
+   "location": "Basel (City) Basel City",
+   "countries": [
+    "CH"
+   ],
+   "type": "alternance",
+   "url": "https://novartis.wd3.myworkdayjobs.com/en-US/Novartis_Careers/job/Basel-City/Lernende-r-Laborant-in-EFZ-Fachrichtung-Chemie_REQ-10084314-1",
+   "posted": "2026-10-10",
+   "first_seen": "2026-11-09",
+   "source": "workday"
+  },
+  {
+   "id": "30fbac45fe94",
+   "title": "Lernende/r Laborant/in EFZ Fachrichtung Biologie",
+   "company": "Novartis",
+   "sector": "medtech",
+   "location": "Basel (City) Basel City",
+   "countries": [
+    "CH"
+   ],
+   "type": "alternance",
+   "url": "https://novartis.wd3.myworkdayjobs.com/en-US/Novartis_Careers/job/Basel-City/Lernende-r-Laborant-in-EFZ-Fachrichtung-Biologie_REQ-10084330",
+   "posted": "2026-10-10",
+   "first_seen": "2026-11-09",
+   "source": "workday"
+  },
+  {
+   "id": "5a03566101a6",
+   "title": "Lernende/r Kauffrau/-mann EFZ",
+   "company": "Novartis",
+   "sector": "medtech",
+   "location": "Basel (City) Basel City",
+   "countries": [
+    "CH"
+   ],
+   "type": "alternance",
+   "url": "https://novartis.wd3.myworkdayjobs.com/en-US/Novartis_Careers/job/Basel-City/Lernende-r-Kauffrau--mann-EFZ_REQ-10084331",
+   "posted": "2026-10-10",
+   "first_seen": "2026-11-09",
+   "source": "workday"
+  },
+  {
+   "id": "3c690ff0ac87",
+   "title": "Lernende/r Logistiker/in EFZ",
+   "company": "Novartis",
+   "sector": "medtech",
+   "location": "Basel (City) Basel City",
+   "countries": [
+    "CH"
+   ],
+   "type": "alternance",
+   "url": "https://novartis.wd3.myworkdayjobs.com/en-US/Novartis_Careers/job/Basel-City/Lernende-r-Logistiker-in-EFZ_REQ-10084328",
+   "posted": "2026-10-10",
+   "first_seen": "2026-11-09",
+   "source": "workday"
+  },
+  {
+   "id": "845b9005c377",
+   "title": "Lernende/r Tierpfleger/in EFZ, Fachrichtung Versuchstiere",
+   "company": "Novartis",
+   "sector": "medtech",
+   "location": "Basel (City) Basel City",
+   "countries": [
+    "CH"
+   ],
+   "type": "alternance",
+   "url": "https://novartis.wd3.myworkdayjobs.com/en-US/Novartis_Careers/job/Basel-City/Lernende-r-Tierpfleger-in-EFZ--Fachrichtung-Versuchstiere_REQ-10084421",
+   "posted": "2026-10-10",
+   "first_seen": "2026-11-09",
+   "source": "workday"
+  },
+  {
+   "id": "24116fbe1096",
+   "title": "Lernende/r ICT Fachmann/frau EFZ",
+   "company": "Novartis",
+   "sector": "medtech",
+   "location": "Basel (City) Basel City",
+   "countries": [
+    "CH"
+   ],
+   "type": "alternance",
+   "url": "https://novartis.wd3.myworkdayjobs.com/en-US/Novartis_Careers/job/Basel-City/Lernende-r-ICT-Fachmann-frau-EFZ_REQ-10089048-1",
+   "posted": "2026-10-10",
+   "first_seen": "2026-11-09",
+   "source": "workday"
+  },
+  {
    "id": "7becf9e25826",
    "title": "internship 6 months communication and project engagement",
    "company": "Sanofi",
@@ -1063,36 +1198,6 @@
    ],
    "type": "stage",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Montpellier/stage-6-mois-support-de-communication-et-de-transformation_R2874040",
-   "posted": "2026-10-10",
-   "first_seen": "2026-11-03",
-   "source": "workday"
-  },
-  {
-   "id": "f344d70019b1",
-   "title": "Junior Brand Associate - VIE Contract",
-   "company": "Sanofi",
-   "sector": "medtech",
-   "location": "Berlin Berlin",
-   "countries": [
-    "DE"
-   ],
-   "type": "vie",
-   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Berlin/Junior-Brand-Associate---VIE-Contract_R2871079",
-   "posted": "2026-10-10",
-   "first_seen": "2026-11-03",
-   "source": "workday"
-  },
-  {
-   "id": "f2ba3ed06599",
-   "title": "Zum 1. Oktober suchen wir Dich (all genders) für ein Duales Studium Informatik (Bachelor of Science)",
-   "company": "Sanofi",
-   "sector": "medtech",
-   "location": "Frankfurt am Main Frankfurt am Main",
-   "countries": [
-    "DE"
-   ],
-   "type": "alternance",
-   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Frankfurt-am-Main/Zum-1-Oktober-suchen-wir-Dich--all-genders--fr-ein-Duales-Studium-Informatik--Bachelor-of-Science-_R2851136",
    "posted": "2026-10-10",
    "first_seen": "2026-11-03",
    "source": "workday"
@@ -1188,21 +1293,6 @@
    "source": "workday"
   },
   {
-   "id": "aec2175aefa1",
-   "title": "Initiativbewerbung Studierende Praktikum (all genders)",
-   "company": "Sanofi",
-   "sector": "medtech",
-   "location": "2 Locations Frankfurt am Main",
-   "countries": [
-    "DE"
-   ],
-   "type": "stage",
-   "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Frankfurt-am-Main/Initiativbewerbung-Studierende-Praktikum--all-genders-_R2832474",
-   "posted": "2026-10-10",
-   "first_seen": "2026-11-03",
-   "source": "workday"
-  },
-  {
    "id": "abf522820395",
    "title": "stage 6 mois software engineer",
    "company": "Sanofi",
@@ -1288,21 +1378,6 @@
    ],
    "type": "stage",
    "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Paris/Corporate-Banking-Coverage-Intern--f-m-x-_R0445267",
-   "posted": "2026-10-10",
-   "first_seen": "2026-11-03",
-   "source": "workday"
-  },
-  {
-   "id": "5dfd3d620272",
-   "title": "Swiss Graduate Programme 2027_Private Bank US&EI",
-   "company": "Deutsche Bank",
-   "sector": "finance",
-   "location": "Zürich Prime Tower Zrich Prime Tower",
-   "countries": [
-    "CH"
-   ],
-   "type": "junior",
-   "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Zrich-Prime-Tower/Swiss-Graduate-Programme-2027-Private-Bank-US-EI_R0452541",
    "posted": "2026-10-10",
    "first_seen": "2026-11-03",
    "source": "workday"
@@ -2154,7 +2229,7 @@
    "name": "Sanofi",
    "sector": "medtech",
    "ats": "workday",
-   "jobs": 47,
+   "jobs": 44,
    "error": null,
    "search_url": "https://www.google.com/search?q=Sanofi%20early%20careers%20graduate%20internship%20alternance"
   },
@@ -2242,7 +2317,7 @@
    "name": "Deutsche Bank",
    "sector": "finance",
    "ats": "workday",
-   "jobs": 12,
+   "jobs": 11,
    "error": null,
    "search_url": "https://www.google.com/search?q=Deutsche%20Bank%20early%20careers%20graduate%20internship%20alternance"
   },
@@ -2290,7 +2365,7 @@
    "name": "Contentsquare",
    "sector": "tech",
    "ats": "lever",
-   "jobs": 2,
+   "jobs": 1,
    "error": null,
    "search_url": "https://www.google.com/search?q=Contentsquare%20early%20careers%20graduate%20internship%20alternance"
   },
@@ -2314,7 +2389,7 @@
    "name": "Novartis",
    "sector": "medtech",
    "ats": "workday",
-   "jobs": 1,
+   "jobs": 11,
    "error": null,
    "search_url": "https://www.google.com/search?q=Novartis%20early%20careers%20graduate%20internship%20alternance"
   },
@@ -2346,7 +2421,7 @@
    "name": "N26",
    "sector": "finance",
    "ats": "greenhouse",
-   "jobs": 1,
+   "jobs": 0,
    "error": null,
    "search_url": "https://www.google.com/search?q=N26%20early%20careers%20graduate%20internship%20alternance"
   },
@@ -2386,7 +2461,7 @@
    "name": "Citi",
    "sector": "finance",
    "ats": "workday",
-   "jobs": 8,
+   "jobs": 9,
    "error": null,
    "search_url": "https://www.google.com/search?q=Citi%20early%20careers%20graduate%20internship%20alternance"
   },
