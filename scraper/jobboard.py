@@ -193,7 +193,7 @@ def workable(slug, **_):
 
 
 WORKDAY_TERMS = ["intern", "stage", "alternance", "graduate", "junior", "apprentice",
-                 "praktikum", "werkstudent", "trainee", "V.I.E"]
+                 "praktikum", "werkstudent", "trainee", "V.I.E", "lehre", "lernende", "postgraduate"]
 
 
 def workday(slug=None, host=None, tenant=None, site=None, **_):
@@ -232,14 +232,14 @@ PROBE_ORDER = ["greenhouse", "lever", "ashby", "smartrecruiters", "recruitee", "
 # --------------------------------------------------------- clasificación
 RE_APPR = re.compile(
     r"\b(alternance|alternant(?:e)?|apprenti(?:e)?|apprentissage|apprenticeship|apprentice|"
-    r"ausbildung|auszubildende(?:r)?|azubi|duales? studium|dual student|duales? bachelor|"
+    r"ausbildung|auszubildende(?:r)?|azubi|lehre|lernende(?:r)?|lehrling|duales? studium|dual student|duales? bachelor|"
     r"work[- ]study|contrat pro(?:fessionnalisation)?)\b", re.I)
 RE_INTERN = re.compile(
     r"\b(interns?|internships?|stages?|stagiaires?|praktikum|praktikant(?:in)?|pflichtpraktikum|"
     r"werkstudent(?:in)?|werkstudium|pasante|pr[aá]cticas|placement student|summer student|co-?op|"
     r"abschlussarbeit|bachelorarbeit|masterarbeit)\b", re.I)
 RE_GRAD = re.compile(
-    r"\b(graduates?|new grad|junior|jr\.?|entry[- ]level|early careers?|trainee|"
+    r"\b(graduates?|postgraduate|next generation scientist|new grad|junior|jr\.?|entry[- ]level|early careers?|trainee|"
     r"jeune dipl[oô]m[eé]|d[eé]butant(?:e)?|berufseinsteiger(?:in)?|absolvent(?:en)?|einsteiger|"
     r"young professional|rotational|analyst program)\b", re.I)
 RE_SENIOR = re.compile(
