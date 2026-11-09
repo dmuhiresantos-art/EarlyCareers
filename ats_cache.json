@@ -150,5 +150,89 @@
  "Back Market": {
   "ats": "ashby",
   "slug": "backmarket"
+ },
+ "Qonto": {
+  "ats": "ashby",
+  "slug": "qonto"
+ },
+ "Pennylane": {
+  "ats": "ashby",
+  "slug": "pennylane"
+ },
+ "Payfit": {
+  "ats": null,
+  "checked": "2026-11-09"
+ },
+ "Swile": {
+  "ats": "lever",
+  "slug": "swile"
+ },
+ "BlaBlaCar": {
+  "ats": "lever",
+  "slug": "blablacar"
+ },
+ "Owkin": {
+  "ats": "ashby",
+  "slug": "owkin"
+ },
+ "Withings": {
+  "ats": "workable",
+  "slug": "withings"
+ },
+ "Spendesk": {
+  "ats": null,
+  "checked": "2026-11-09"
+ },
+ "Aircall": {
+  "ats": null,
+  "checked": "2026-11-09"
+ },
+ "Trade Republic": {
+  "ats": null,
+  "checked": "2026-11-09"
+ },
+ "Ada Health": {
+  "ats": null,
+  "checked": "2026-11-09"
+ },
+ "Delivery Hero": {
+  "ats": "smartrecruiters",
+  "slug": "deliveryhero"
+ },
+ "Mambu": {
+  "ats": null,
+  "checked": "2026-11-09"
+ },
+ "Raisin": {
+  "ats": "greenhouse",
+  "slug": "raisin"
+ },
+ "Taxfix": {
+  "ats": null,
+  "checked": "2026-11-09"
+ },
+ "Sophia Genetics": {
+  "ats": "workable",
+  "slug": "sophia-genetics"
+ },
+ "Nexthink": {
+  "ats": "smartrecruiters",
+  "slug": "nexthink"
+ },
+ "Beekeeper": {
+  "ats": null,
+  "checked": "2026-11-09"
+ },
+ "Wayflyer": {
+  "ats": "ashby",
+  "slug": "wayflyer"
+ },
+ "Fenergo": {
+  "ats": null,
+  "checked": "2026-11-09"
+ },
+ "Flipdish": {
+  "ats": "greenhouse",
+  "slug": "flipdish"
  }
 }
