@@ -212,7 +212,7 @@ def workday(slug=None, host=None, tenant=None, site=None, **_):
                 seen.add(path)
                 out.append({
                     "title": j.get("title", ""),
-                    "location": j.get("locationsText", "") + " " + " ".join(path.split("/")[2:3]).replace("-", " "),
+                    "location": (" ".join(path.split("/")[2:3]).replace("-", " ") if re.search(r"(?i)locations?|ubicaciones", j.get("locationsText", "")) else j.get("locationsText", "")), "hint": " ".join(path.split("/")[2:3]).replace("-", " "),
                     "url": f"https://{host}/en-US/{site}{path}",
                     "posted": relative_date(j.get("postedOn", "")),
                     "extra": "",
@@ -372,9 +372,9 @@ def collect(config: dict, cache: dict, prev_jobs: list[dict], connectors=None, l
             mine = []
             for r in raw:
                 kind = classify(r["title"], r.get("extra", ""))
-                if not kind:
+                if not kind or (r.get("posted") and r["posted"] < (datetime.now(timezone.utc).date() - timedelta(days=180)).isoformat()):
                     continue
-                ctry = detect_countries(r["location"])
+                ctry = detect_countries(r["location"] + " " + r.get("hint", ""))
                 if not (ctry & wanted):
                     continue
                 jid = make_id(name, r["title"], r["location"])
