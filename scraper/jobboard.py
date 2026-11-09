@@ -7,6 +7,7 @@
 from __future__ import annotations
 
 import argparse
+import html as htmllib
 import hashlib
 import json
 import re
@@ -90,7 +91,7 @@ def greenhouse(slug, **_):
         "title": j.get("title", ""),
         "location": (j.get("location") or {}).get("name", ""),
         "url": j.get("absolute_url", ""),
-        "posted": iso_date(j.get("first_published") or j.get("updated_at")),
+        "posted": iso_date(j.get("first_published") or j.get("updated_at")), "jid": j.get("id"),
         "extra": "",
     } for j in data.get("jobs", [])]
 
@@ -111,7 +112,7 @@ def lever(slug, **_):
                 "location": c.get("location") or " / ".join(c.get("allLocations") or []),
                 "url": j.get("hostedUrl", ""),
                 "posted": iso_date(j.get("createdAt")),
-                "extra": c.get("commitment") or "",
+                "extra": c.get("commitment") or "", "desc": lever_desc(j),
             })
         return out
     raise last or NotFound(slug)
@@ -130,7 +131,7 @@ def ashby(slug, **_):
             "location": " / ".join(x for x in locs if x),
             "url": j.get("jobUrl", ""),
             "posted": iso_date(j.get("publishedAt")),
-            "extra": j.get("employmentType") or "",
+            "extra": j.get("employmentType") or "", "desc": j.get("descriptionPlain") or html_to_text(j.get("descriptionHtml", "")),
         })
     return out
 
@@ -150,7 +151,7 @@ def smartrecruiters(slug, **_):
                 "title": j.get("name", ""),
                 "location": location,
                 "url": f"https://jobs.smartrecruiters.com/{slug}/{j.get('id')}",
-                "posted": iso_date(j.get("releasedDate")),
+                "posted": iso_date(j.get("releasedDate")), "jid": j.get("id"),
                 "extra": f"{toe} {exp}".strip(),
             })
         offset += 100
@@ -166,7 +167,7 @@ def recruitee(slug, **_):
         "location": ", ".join(x for x in [j.get("city"), (j.get("country_code") or "").upper()] if x),
         "url": j.get("careers_url", ""),
         "posted": iso_date(j.get("published_at") or j.get("created_at")),
-        "extra": j.get("employment_type_code") or "",
+        "extra": j.get("employment_type_code") or "", "desc": html_to_text((j.get("description") or "") + "<h3>Requirements</h3>" + (j.get("requirements") or "")),
     } for j in data.get("offers", [])]
 
 
@@ -183,7 +184,7 @@ def workable(slug, **_):
                 "title": j.get("title", ""),
                 "location": ", ".join(x for x in [loc.get("city"), loc.get("country")] if x),
                 "url": f"https://apply.workable.com/{slug}/j/{j.get('shortcode')}/",
-                "posted": iso_date(j.get("published")),
+                "posted": iso_date(j.get("published")), "shortcode": j.get("shortcode"),
                 "extra": j.get("employment_type") or "",
             })
         token = data.get("nextPage")
@@ -214,7 +215,7 @@ def workday(slug=None, host=None, tenant=None, site=None, **_):
                     "title": j.get("title", ""),
                     "location": (" ".join(path.split("/")[2:3]).replace("-", " ") if re.search(r"(?i)locations?|ubicaciones", j.get("locationsText", "")) else j.get("locationsText", "")), "hint": " ".join(path.split("/")[2:3]).replace("-", " "),
                     "url": f"https://{host}/en-US/{site}{path}",
-                    "posted": relative_date(j.get("postedOn", "")),
+                    "posted": relative_date(j.get("postedOn", "")), "path": path,
                     "extra": "",
                 })
             if len(posts) < 20:
@@ -340,6 +341,81 @@ def resolve(company: dict, cache: dict, connectors=None, force=False):
     return None
 
 
+TAG_BREAK = re.compile(r"</(?:p|div|h[1-6]|ul|ol|section|tr|table)>|<br\s*/?>", re.I)
+
+
+def _clip(text, limit=6000):
+    if len(text) <= limit:
+        return text
+    return text[:limit].rsplit(" ", 1)[0].rstrip() + "…"
+
+
+def html_to_text(raw, limit=6000):
+    """HTML (a veces escapado) -> texto plano con párrafos y viñetas."""
+    if not raw:
+        return ""
+    s = str(raw)
+    if "&lt;" in s and "<" not in s[:300]:
+        s = htmllib.unescape(s)
+    s = re.sub(r"(?is)<(script|style)[^>]*>.*?</\1>", "", s)
+    s = re.sub(r"(?i)<li[^>]*>", "\n• ", s)
+    s = TAG_BREAK.sub("\n", s)
+    s = re.sub(r"<[^>]+>", "", s)
+    s = htmllib.unescape(s).replace("\xa0", " ")
+    out, blank = [], False
+    for line in s.split("\n"):
+        line = re.sub(r"[ \t]+", " ", line).strip()
+        if not line:
+            blank = bool(out)
+            continue
+        if blank:
+            out.append("")
+            blank = False
+        out.append(line)
+    return _clip("\n".join(out).strip(), limit)
+
+
+def lever_desc(j):
+    parts = [j.get("descriptionPlain") or html_to_text(j.get("description", ""))]
+    for sec in j.get("lists") or []:
+        parts.append((sec.get("text") or "") + "\n" + html_to_text(sec.get("content", "")))
+    parts.append(j.get("additionalPlain") or html_to_text(j.get("additional", "")))
+    return _clip("\n\n".join(p.strip() for p in parts if p and p.strip()))
+
+
+def fetch_desc(ats, kw, r):
+    """Descarga la descripción de una oferta concreta (solo las ya filtradas)."""
+    if ats == "greenhouse" and r.get("jid"):
+        d = http("GET", f"https://boards-api.greenhouse.io/v1/boards/{kw['slug']}/jobs/{r['jid']}")
+        return html_to_text(d.get("content", ""))
+    if ats == "smartrecruiters" and r.get("jid"):
+        d = http("GET", f"https://api.smartrecruiters.com/v1/companies/{kw['slug']}/postings/{r['jid']}")
+        secs = (d.get("jobAd") or {}).get("sections") or {}
+        parts = []
+        for key in ("companyDescription", "jobDescription", "qualifications", "additionalInformation"):
+            sec = secs.get(key) or {}
+            if sec.get("text"):
+                parts.append((sec.get("title") or "") + "\n" + html_to_text(sec["text"]))
+        return _clip("\n\n".join(p.strip() for p in parts))
+    if ats == "workable" and r.get("shortcode"):
+        d = http("GET", f"https://apply.workable.com/api/v2/accounts/{kw['slug']}/jobs/{r['shortcode']}")
+        raw = (d.get("description") or "") + "<h3>Requirements</h3>" + (d.get("requirements") or "") + "<h3>Benefits</h3>" + (d.get("benefits") or "")
+        return html_to_text(raw)
+    if ats == "workday" and r.get("path"):
+        d = http("GET", f"https://{kw['host']}/wday/cxs/{kw['tenant']}/{kw['site']}{r['path']}")
+        return html_to_text((d.get("jobPostingInfo") or {}).get("jobDescription", ""))
+    return ""
+
+
+def job_desc(ats, kw, r):
+    if r.get("desc"):
+        return _clip(r["desc"])
+    try:
+        return fetch_desc(ats, kw, r)
+    except Exception:
+        return ""
+
+
 def make_id(company: str, title: str, loc: str) -> str:
     key = f"{company}|{title}|{loc}".lower()
     return hashlib.sha1(key.encode()).hexdigest()[:12]
@@ -352,6 +428,7 @@ def collect(config: dict, cache: dict, prev_jobs: list[dict], connectors=None, l
     for j in prev_jobs:
         prev_by_company.setdefault(j["company"], []).append(j)
     prev_first_seen = {j["id"]: j.get("first_seen") for j in prev_jobs}
+    prev_desc = {j["id"]: j.get("desc") for j in prev_jobs}
     today = datetime.now(timezone.utc).date().isoformat()
 
     jobs, companies, seen_ids = [], [], set()
@@ -385,7 +462,7 @@ def collect(config: dict, cache: dict, prev_jobs: list[dict], connectors=None, l
                     "id": jid, "title": r["title"].strip(), "company": name,
                     "sector": c.get("sector", ""), "location": r["location"],
                     "countries": sorted(ctry & wanted), "type": kind, "url": r["url"],
-                    "posted": r.get("posted"), "first_seen": prev_first_seen.get(jid) or today,
+                    "posted": r.get("posted"), "first_seen": prev_first_seen.get(jid) or today, "desc": prev_desc.get(jid) or job_desc(ats, kw, r),
                     "source": ats,
                 })
             jobs.extend(mine)
