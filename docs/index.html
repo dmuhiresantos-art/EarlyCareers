@@ -3,194 +3,353 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Early careers in Europe: stages, alternances, junior roles</title>
+<title>Early careers in Europe · internships, apprenticeships, graduate roles</title>
+<meta name="description" content="Internships, apprenticeships, graduate programmes and VIE at Europe's biggest employers in France, Germany, Switzerland, Ireland and Luxembourg. Updated daily.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-:root{
-  --paper:#ECEFF4; --surface:#FFFFFF; --ink:#0F172A; --muted:#5A6478; --line:#D3D9E3; --accent:#1F4FFF;
-  --stage:#0E7C6B; --alternance:#B45309; --junior:#5B3FD1; --vie:#BE185D;
-  color-scheme:light;
-}
-@media (prefers-color-scheme:dark){
-  :root{
-    --paper:#0D1220; --surface:#161C2E; --ink:#E8ECF6; --muted:#9AA5BC; --line:#2A3350; --accent:#6C8CFF;
-    --stage:#34C3AB; --alternance:#F0A04B; --junior:#9D8CFF; --vie:#F472A8;
-    color-scheme:dark;
-  }
-}
+:root{--hero:#0D1B3D;--hero2:#16295C;--bg:#F2F4FA;--card:#FFFFFF;--ink:#0D1B3D;--text:#26304D;--muted:#5E6A88;--line:#E0E5F0;--soft:#EEF1F9;--cta:#FF5C39;--cta-hover:#E84A27;--on-cta:#FFFFFF;--stage:#00A88F;--alternance:#F08A00;--junior:#6D4AFF;--vie:#E0357C;--shadow:0 1px 2px rgba(13,27,61,.06),0 6px 18px rgba(13,27,61,.06);--radius:16px;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--hero:#0B1431;--hero2:#142251;--bg:#080D1E;--card:#111A33;--ink:#F1F4FF;--text:#C9D1EA;--muted:#8E9AC0;--line:#202C52;--soft:#16203F;--cta:#FF6A48;--stage:#2DD4B8;--alternance:#FFA630;--junior:#9B83FF;--vie:#FF5FA0;--shadow:0 1px 2px rgba(0,0,0,.4),0 8px 22px rgba(0,0,0,.35);color-scheme:dark}}
 *{box-sizing:border-box}
-html,body{margin:0}
-body{background:var(--paper);color:var(--ink);font:16px/1.5 "Schibsted Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-text-size-adjust:100%}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 "Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-text-size-adjust:100%}
+h1,h2,h3,h4,.display{font-family:"Bricolage Grotesque","Instrument Sans",system-ui,sans-serif;color:var(--ink);letter-spacing:-.02em}
 a{color:inherit}
-.wrap{max-width:1080px;margin:0 auto;padding:40px 20px 80px}
-h1{font-size:clamp(1.9rem,4.5vw,3rem);line-height:1.08;letter-spacing:-.025em;margin:0 0 10px;font-weight:700;max-width:18ch}
-.lede{color:var(--muted);margin:0 0 28px;max-width:60ch}
-.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);margin-bottom:20px}
-.tab{appearance:none;background:none;border:0;border-bottom:2px solid transparent;color:var(--muted);font:inherit;font-weight:600;padding:10px 14px;cursor:pointer;margin-bottom:-1px}
-.tab[aria-selected=true]{color:var(--ink);border-bottom-color:var(--accent)}
-:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
-.filters{display:grid;grid-template-columns:1fr;gap:12px;margin-bottom:16px}
-@media (min-width:720px){.filters{grid-template-columns:2fr 1fr 1fr 1fr}}
-input[type=search],select{width:100%;font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px 12px}
-.types{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:8px}
-.chip{display:inline-flex;align-items:center;gap:8px;font:inherit;font-weight:600;font-size:.9rem;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:999px;padding:6px 12px;cursor:pointer}
-.chip i{width:10px;height:10px;border-radius:50%;background:var(--c)}
-.chip[aria-pressed=true]{background:var(--c);border-color:var(--c);color:#fff}
+button{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--cta);outline-offset:2px;border-radius:8px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+.hero{position:relative;overflow:hidden;color:#fff;padding:36px 0 96px;background:radial-gradient(520px 260px at 88% 8%,rgba(109,74,255,.55),transparent 65%),radial-gradient(460px 260px at 4% 100%,rgba(0,168,143,.45),transparent 65%),radial-gradient(380px 200px at 60% 120%,rgba(255,92,57,.35),transparent 65%),linear-gradient(160deg,var(--hero),var(--hero2))}
+.hero:before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:44px 44px;-webkit-mask-image:linear-gradient(to bottom,#000 30%,transparent 95%);mask-image:linear-gradient(to bottom,#000 30%,transparent 95%)}
+.hero .wrap{position:relative}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:.02em}
+.logo{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,var(--cta),#FFB02E);display:grid;place-items:center;color:#fff;font-family:"Bricolage Grotesque",sans-serif;font-weight:800}
+.hero h1{color:#fff;font-size:clamp(2.3rem,6.4vw,4.1rem);line-height:1.02;margin:34px 0 14px;font-weight:800;max-width:15ch}
+.mark{background:linear-gradient(transparent 62%,rgba(255,92,57,.85) 62%);padding:0 .08em}
+.lede{color:#C7D0EE;max-width:60ch;margin:0 0 28px;font-size:1.06rem}
+.stats{display:flex;flex-wrap:wrap;gap:14px 40px}
+.stat b{display:block;font-family:"Bricolage Grotesque",sans-serif;font-size:clamp(1.9rem,4.6vw,2.8rem);line-height:1;color:#fff;font-weight:800}
+.stat span{font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:#9FB0E0}
+.searchbar{margin-top:-32px;position:relative;z-index:2}
+.search{display:flex;align-items:center;gap:10px;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:8px 10px 8px 18px;box-shadow:var(--shadow)}
+.search svg{flex:none;color:var(--muted)}
+.search input{flex:1;min-width:0;border:0;background:transparent;font:inherit;font-size:1.05rem;color:var(--ink);padding:12px 4px;outline:0}
+.search input::placeholder{color:var(--muted)}
+.search:focus-within{box-shadow:0 0 0 3px rgba(255,92,57,.35),var(--shadow)}
+.tabs{display:flex;gap:6px;margin:26px 0 14px}
+.tab{border:0;background:transparent;padding:9px 18px;border-radius:999px;font-weight:600;color:var(--muted);cursor:pointer}
+.tab[aria-selected=true]{background:var(--ink);color:var(--bg)}
+.filters{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:12px}
+select{width:100%;background:var(--card);border:1.5px solid var(--line);border-radius:12px;padding:11px 12px;font:inherit;color:var(--ink);cursor:pointer}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}
+.chip{display:inline-flex;align-items:center;gap:8px;border:1.5px solid var(--line);background:var(--card);border-radius:999px;padding:7px 14px;font-weight:600;font-size:.92rem;cursor:pointer;color:var(--text)}
+.chip i{width:10px;height:10px;border-radius:50%;background:var(--c,var(--cta))}
+.chip small{color:var(--muted);font-weight:600;font-size:.85em}
+.chip[aria-pressed=true]{background:var(--c,var(--ink));border-color:var(--c,var(--ink));color:#fff}
 .chip[aria-pressed=true] i{background:#fff}
-.chip.plain{--c:var(--accent)}
-.meta{color:var(--muted);font-size:.9rem;margin:14px 0 10px}
-ul.jobs{list-style:none;margin:0;padding:0;display:grid;gap:8px}
-.job{display:grid;grid-template-columns:1fr auto;gap:4px 16px;align-items:center;background:var(--surface);border:1px solid var(--line);border-left:6px solid var(--c);border-radius:8px;padding:12px 16px;text-decoration:none}
-.job:hover{border-color:var(--c)}
-.job h2{font-size:1.02rem;line-height:1.3;margin:0;font-weight:600}
-.job .sub{color:var(--muted);font-size:.9rem}
-.job .side{text-align:right;font-size:.85rem;color:var(--muted);white-space:nowrap}
-.tag{font-weight:600;color:var(--c)}
-.badge-new{display:inline-block;margin-left:8px;font-size:.75rem;font-weight:700;color:#fff;background:var(--accent);border-radius:4px;padding:1px 6px;vertical-align:2px}
-@media (max-width:560px){.job{grid-template-columns:1fr}.job .side{text-align:left}}
-.empty{background:var(--surface);border:1px dashed var(--line);border-radius:8px;padding:28px;color:var(--muted)}
+.chip[aria-pressed=true] small{color:rgba(255,255,255,.85)}
+.meta{display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:.92rem;margin:6px 2px 12px}
+.link{background:none;border:0;color:var(--cta);font-weight:700;cursor:pointer;padding:4px}
+.jobs{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.card{display:grid;grid-template-columns:auto 1fr auto;gap:14px 16px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px 16px 22px;text-decoration:none;position:relative;box-shadow:var(--shadow);transition:transform .15s ease,box-shadow .15s ease,border-color .15s ease}
+.card:before{content:"";position:absolute;left:0;top:14px;bottom:14px;width:5px;border-radius:0 6px 6px 0;background:var(--c)}
+.card:hover{transform:translateY(-2px);border-color:var(--c);box-shadow:0 10px 28px rgba(13,27,61,.14)}
+.avatar{width:48px;height:48px;flex:none;border-radius:14px;display:grid;place-items:center;color:#fff;font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:1.05rem;background:var(--av,#667)}
+.avatar.sm{width:40px;height:40px;border-radius:12px;font-size:.95rem}
+.card h2{font-size:1.1rem;line-height:1.28;margin:0;font-weight:700}
+.sub{color:var(--muted);font-size:.93rem;margin-top:2px}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.tag{font-size:.78rem;font-weight:600;border-radius:999px;padding:3px 10px;background:var(--soft);color:var(--text)}
+.tag.type{background:color-mix(in srgb,var(--c) 14%,transparent);color:var(--c)}
+.side{font-size:.85rem;color:var(--muted);white-space:nowrap;display:flex;flex-direction:column;align-items:flex-end;gap:8px}
+.new{background:var(--cta);color:#fff;border-radius:6px;padding:1px 7px;font-size:.72rem;font-weight:700;letter-spacing:.04em}
+.go{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:var(--soft);color:var(--ink);transition:background .15s,color .15s}
+.card:hover .go{background:var(--c);color:#fff}
+.empty{background:var(--card);border:2px dashed var(--line);border-radius:var(--radius);padding:30px;text-align:center;color:var(--muted)}
 .empty strong{color:var(--ink)}
-table{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--line);border-radius:8px;overflow:hidden}
-.scroll{overflow-x:auto}
-th,td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--line);font-size:.92rem;vertical-align:top}
-th{color:var(--muted);font-weight:600}
-tr:last-child td{border-bottom:0}
-.ok{color:var(--stage);font-weight:600}.todo{color:var(--alternance);font-weight:600}
-@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+.sk{height:104px;border-radius:var(--radius);background:linear-gradient(90deg,var(--soft),var(--card),var(--soft));background-size:200% 100%;animation:sh 1.3s linear infinite}
+@keyframes sh{to{background-position:-200% 0}}
+.cgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.co{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;display:flex;flex-direction:column;gap:12px;box-shadow:var(--shadow)}
+.co .top{display:flex;gap:12px;align-items:center}
+.co h3{margin:0;font-size:1.05rem}
+.pill{display:inline-block;font-size:.78rem;font-weight:700;border-radius:999px;padding:3px 10px}
+.pill.ok{background:rgba(0,168,143,.14);color:var(--stage)}
+.pill.todo{background:rgba(240,138,0,.15);color:var(--alternance)}
+.btns{display:flex;gap:8px;margin-top:auto;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:12px;padding:10px 16px;font-weight:700;text-decoration:none;border:1.5px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer;font-size:.95rem}
+.btn:hover{border-color:var(--ink)}
+.btn.primary{background:var(--cta);border-color:var(--cta);color:var(--on-cta)}
+.btn.primary:hover{background:var(--cta-hover);border-color:var(--cta-hover)}
+.foot{padding:40px 20px 56px;color:var(--muted);font-size:.88rem}
+.overlay{position:fixed;inset:0;background:rgba(6,10,28,.55);-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px);opacity:0;pointer-events:none;transition:opacity .2s;z-index:50}
+.overlay.open{opacity:1;pointer-events:auto}
+.drawer{position:fixed;top:0;right:0;bottom:0;width:min(760px,100%);background:var(--bg);z-index:60;transform:translateX(100%);visibility:hidden;transition:transform .25s cubic-bezier(.2,.8,.2,1),visibility 0s .25s;display:flex;flex-direction:column;box-shadow:-20px 0 60px rgba(0,0,0,.3)}
+.drawer.open{transform:none;visibility:visible;transition:transform .25s cubic-bezier(.2,.8,.2,1),visibility 0s}
+.dbar{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;border-bottom:1px solid var(--line);background:var(--card)}
+.dcrumb{font-size:.85rem;color:var(--muted);font-weight:600}
+.dscroll{overflow:auto;flex:1;padding:22px 22px 130px}
+.dhead{display:flex;gap:16px;align-items:flex-start}
+.dhead .avatar{width:64px;height:64px;border-radius:18px;font-size:1.35rem}
+.dhead h2{font-size:clamp(1.4rem,3.4vw,1.95rem);line-height:1.12;margin:0 0 4px}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 6px}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:18px 0}
+.fact{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 14px}
+.fact span{display:block;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.fact b{color:var(--ink);font-weight:600;font-size:.95rem}
+.sec{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin:14px 0}
+.sec h3{margin:0 0 10px;font-size:1.2rem}
+.sec.req{border-color:var(--c);box-shadow:inset 5px 0 0 var(--c)}
+.prose p{margin:0 0 .8em}
+.prose h4{margin:1.3em 0 .4em;font-size:1.02rem}
+.prose ul{margin:0 0 .9em;padding-left:1.2em}
+.prose li{margin:.28em 0}
+.note{font-size:.85rem;color:var(--muted);margin-top:12px}
+.corow{display:flex;gap:12px;align-items:center;margin-bottom:12px}
+.more{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:6px}
+.more a{display:block;padding:10px 12px;border-radius:12px;background:var(--soft);text-decoration:none}
+.more a:hover{background:var(--line)}
+.more b{color:var(--ink);font-weight:600}
+.dfoot{position:absolute;left:0;right:0;bottom:0;padding:16px 18px;background:linear-gradient(to top,var(--bg) 72%,transparent);display:flex;gap:12px;align-items:center;justify-content:space-between}
+.dfoot .hint{font-size:.85rem;color:var(--muted)}
+.dfoot .btn{padding:13px 22px;font-size:1rem}
+@media (max-width:700px){.filters{grid-template-columns:1fr}.card{grid-template-columns:auto 1fr}.side{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center}.dfoot .hint{display:none}.dfoot .btn{width:100%}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}html{scroll-behavior:auto}}
 </style>
 </head>
 <body>
-<div class="wrap">
-  <h1>Early careers in Europe</h1>
-  <p class="lede" id="lede">Stages, alternances, junior roles and VIE at large employers in France, Germany, Switzerland, Ireland and Luxembourg.</p>
-
-  <div class="tabs" role="tablist">
-    <button class="tab" role="tab" id="tab-offers" aria-selected="true" aria-controls="panel-offers">Offers</button>
-    <button class="tab" role="tab" id="tab-companies" aria-selected="false" aria-controls="panel-companies">Companies</button>
-  </div>
-
-  <section id="panel-offers" role="tabpanel" aria-labelledby="tab-offers">
-    <div class="filters">
-      <input type="search" id="q" placeholder="Search title, company or city" aria-label="Search offers">
-      <select id="country" aria-label="Country"><option value="">All countries</option></select>
-      <select id="sector" aria-label="Sector"><option value="">All sectors</option></select>      <select id="cat" aria-label="Area"><option value="">All areas</option></select>
+<header class="hero">
+  <div class="wrap">
+    <div class="brand"><span class="logo">E</span><span>Early Careers Europe</span></div>
+    <h1>Your first real job, <span class="mark">in one list</span>.</h1>
+    <p class="lede">Internships, apprenticeships, graduate programmes and VIE at Europe's biggest employers in France, Germany, Switzerland, Ireland and Luxembourg. Refreshed every day straight from the employers' own careers sites.</p>
+    <div class="stats">
+      <div class="stat"><b id="st-offers">–</b><span>open roles</span></div>
+      <div class="stat"><b id="st-co">–</b><span>employers</span></div>
+      <div class="stat"><b id="st-ct">5</b><span>countries</span></div>
+      <div class="stat"><b id="st-upd">–</b><span>last update</span></div>
     </div>
-    <div class="types" id="types"></div>
-    <div class="meta" id="count" aria-live="polite"></div>
-    <ul class="jobs" id="jobs"></ul>
-  </section>
-
-  <section id="panel-companies" role="tabpanel" aria-labelledby="tab-companies" hidden>
-    <p class="meta">Employers without a public job feed are not scraped. Use the link to open their careers search.</p>
-    <div class="scroll"><table><thead><tr><th>Company</th><th>Sector</th><th>Coverage</th><th>Open early-career roles</th><th></th></tr></thead><tbody id="companies"></tbody></table></div>
-  </section>
+  </div>
+</header>
+<div class="wrap searchbar">
+  <label class="search"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><input id="q" type="search" placeholder="Search a role, a company or a city" aria-label="Search offers" autocomplete="off"></label>
 </div>
-
+<main class="wrap">
+  <div class="tabs" role="tablist">
+    <button class="tab" role="tab" id="tab-offers" aria-selected="true">Offers</button>
+    <button class="tab" role="tab" id="tab-companies" aria-selected="false">Employers</button>
+  </div>
+  <section id="panel-offers">
+    <div class="filters">
+      <select id="country" aria-label="Country"><option value="">All countries</option></select>
+      <select id="sector" aria-label="Sector"><option value="">All sectors</option></select>
+      <select id="cat" aria-label="Area"><option value="">All areas</option></select>
+    </div>
+    <div class="chips" id="chips"></div>
+    <div class="meta"><span id="count" aria-live="polite"></span><button class="link" id="clear" type="button" hidden>Clear filters</button></div>
+    <ul class="jobs" id="jobs"><li class="sk"></li><li class="sk"></li><li class="sk"></li><li class="sk"></li></ul>
+  </section>
+  <section id="panel-companies" hidden>
+    <p class="meta">Employers marked "Browse on their site" don't publish a public job feed, so we link you to their careers search instead.</p>
+    <div class="cgrid" id="cgrid"></div>
+  </section>
+</main>
+<footer class="wrap foot">Every offer comes from the employer's own careers site and links back to the original posting. Descriptions are shown as published by the employer and may be shortened. Always check the original posting before applying.</footer>
+<div class="overlay" id="overlay"></div>
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="d-title" aria-hidden="true">
+  <div class="dbar"><button class="btn" id="dclose" type="button">&larr; Back to offers</button><span class="dcrumb">Offer details</span></div>
+  <div class="dscroll" id="dscroll"></div>
+  <div class="dfoot"><span class="hint">You will apply on the employer's own website.</span><a class="btn primary" id="dapply" target="_blank" rel="noopener noreferrer" href="#">Apply</a></div>
+</aside>
 <script>
-const TYPES = {stage:"Internship / stage", alternance:"Alternance / apprenticeship", junior:"Junior / graduate", vie:"VIE"};
-const COUNTRIES = {FR:"France", DE:"Germany", CH:"Switzerland", IE:"Ireland", LU:"Luxembourg"};
-const SECTORS = {medtech:"Medtech & health", finance:"Banking & finance", tech:"Tech & AI"};
-const state = {q:"", country:"", sector:"", cat:"", types:new Set(), onlyNew:false}; const CATS = {sales:"Sales & business development", marketing:"Marketing & communication", hr:"HR & people", finance:"Finance & banking", science:"Science, health & quality", ops:"Operations & supply chain", tech:"Engineering, data & IT", other:"Other"}; const CAT_RE = [["sales",/sales|business develop|vente|commercial|vertrieb|customer success|revenue/i],["marketing",/marketing|brand|communicat|content|seo|social media|public affairs|kommunikation/i],["hr",/\bhr\b|human resources|people|talent|recruit|ressources humaines/i],["finance",/financ|bank|trading|markets|risk|audit|accounting|fp&a|controll|treasury|wealth|capital|fiscalit|\btax|compliance|insurance|assurance/i],["science",/clinic|research|laborat|r&d|biolog|pharma|regulatory|toxicolog|chem|medical|scientist|forschung|quality|qualit/i],["ops",/operations|supply|logistic|procurement|production|manufactur|facilities|process|produktion|planning/i],["tech",/software|engineer|develop|devops|security|cyber|data|machine learning|\bai\b|\bit\b|informati|programm|cloud|fullstack|automation|digital/i]]; const catOf = (j) => { for (const [k, re] of CAT_RE) if (re.test(j.title)) return k; return "other"; };
-let DATA = {jobs:[], companies:[], updated:null};
-
-const $ = (id) => document.getElementById(id);
-const el = (tag, props = {}, ...kids) => {
-  const n = document.createElement(tag);
-  for (const [k, v] of Object.entries(props)) {
-    if (k === "class") n.className = v; else if (k === "style") n.style.cssText = v;
-    else if (k === "text") n.textContent = v; else n.setAttribute(k, v);
-  }
-  kids.forEach(c => n.append(c));
-  return n;
-};
-const fmt = (iso) => iso ? new Date(iso + "T00:00:00").toLocaleDateString("en-GB", {day:"numeric", month:"short"}) : "";
-const daysAgo = (iso) => iso ? (Date.now() - new Date(iso + "T00:00:00").getTime()) / 864e5 : 999;
-
-function initFilters() {
-  for (const [k, v] of Object.entries(COUNTRIES)) $("country").append(el("option", {value:k, text:v}));
-  for (const [k, v] of Object.entries(SECTORS)) $("sector").append(el("option", {value:k, text:v})); for (const [k, v] of Object.entries(CATS)) $("cat").append(el("option", {value:k, text:v})); $("cat").onchange = (e) => { state.cat = e.target.value; render(); };
-  const box = $("types");
-  for (const [k, v] of Object.entries(TYPES)) {
-    const b = el("button", {class:"chip", type:"button", "aria-pressed":"false", style:`--c:var(--${k})`}, el("i"), v);
-    b.onclick = () => {
-      state.types.has(k) ? state.types.delete(k) : state.types.add(k);
-      b.setAttribute("aria-pressed", state.types.has(k));
-      render();
-    };
-    box.append(b);
-  }
-  const nb = el("button", {class:"chip plain", type:"button", "aria-pressed":"false"}, el("i"), "New this week");
-  nb.onclick = () => { state.onlyNew = !state.onlyNew; nb.setAttribute("aria-pressed", state.onlyNew); render(); };
-  box.append(nb);
-  $("q").oninput = (e) => { state.q = e.target.value.trim().toLowerCase(); render(); };
-  $("country").onchange = (e) => { state.country = e.target.value; render(); };
-  $("sector").onchange = (e) => { state.sector = e.target.value; render(); };
+(function(){
+"use strict";
+var TYPES={stage:"Internship",alternance:"Apprenticeship",junior:"Junior / graduate",vie:"VIE"};
+var COUNTRIES={FR:"France",DE:"Germany",CH:"Switzerland",IE:"Ireland",LU:"Luxembourg"};
+var SECTORS={medtech:"Medtech & health",finance:"Banking & finance",tech:"Tech & AI"};
+var SRC={workday:"Workday",greenhouse:"Greenhouse",lever:"Lever",ashby:"Ashby",smartrecruiters:"SmartRecruiters",workable:"Workable",recruitee:"Recruitee"};
+var CATS={sales:"Sales & business development",marketing:"Marketing & communication",hr:"HR & people",finance:"Finance & banking",science:"Science, health & quality",ops:"Operations & supply chain",tech:"Engineering, data & IT",other:"Other"};
+var CAT_RE=[["sales",/sales|business develop|vente|commercial|vertrieb|customer success|revenue/i],["marketing",/marketing|brand|communicat|content|seo|social media|public affairs|kommunikation/i],["hr",/\bhr\b|human resources|people|talent|recruit|ressources humaines/i],["finance",/financ|bank|trading|markets|risk|audit|accounting|fp&a|controll|treasury|wealth|capital|coverage|fiscalit|\btax|compliance|insurance|assurance/i],["science",/clinic|bioanaly|spectrom|research|laborat|r&d|biolog|pharma|regulatory|toxicolog|chem|medical|scientist|forschung|quality|qualit/i],["ops",/operations|supply|logistic|procurement|production|manufactur|facilities|process|produktion|planning/i],["tech",/software|engineer|ing[eé]nieur|python|service desk|\bsqa\b|infrastructure|develop|devops|security|cyber|data|machine learning|\bai\b|\bit\b|informati|programm|cloud|fullstack|automation|digital/i]];
+var REQ_HEAD=/^(requirements?|qualifications?|what we.?re looking for|what you.?ll bring|what you bring|who you are|your profile|about you|you have|skills|must.?haves?|profil|votre profil|vous [eê]tes|comp[eé]tences|anforderungen|dein profil|ihr profil|qualifikationen|das bringst du mit|vos qualit)/i;
+var ICON={arrow:'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>',ext:'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg>'};
+var BASE_TITLE=document.title;
+var state={q:"",country:"",sector:"",cat:"",types:{},onlyNew:false};
+var DATA={jobs:[],companies:[],updated:null},BYID={},lastFocus=null;
+function $(id){return document.getElementById(id)}
+function el(tag,cls,text){var n=document.createElement(tag);if(cls)n.className=cls;if(text!=null)n.textContent=text;return n}
+function catOf(j){for(var i=0;i<CAT_RE.length;i++){if(CAT_RE[i][1].test(j.title))return CAT_RE[i][0]}return "other"}
+function hue(s){var h=0;for(var i=0;i<s.length;i++){h=(h*31+s.charCodeAt(i))%360}return h}
+function initials(n){var w=n.replace(/[^A-Za-zÀ-ÿ0-9 ]/g,"").split(" ").filter(Boolean);var a=(w[0]||"?").charAt(0);var b=w.length>1?w[1].charAt(0):(w[0]||"").charAt(1);return (a+b).toUpperCase()}
+function avatar(name,cls){var a=el("div","avatar"+(cls?" "+cls:""),initials(name));a.style.setProperty("--av","hsl("+hue(name)+" 62% 42%)");a.setAttribute("aria-hidden","true");return a}
+function days(iso){if(!iso)return 9999;return Math.floor((Date.now()-new Date(iso+"T00:00:00").getTime())/864e5)}
+function ago(iso){var d=days(iso);if(d>=9999)return "";if(d<=0)return "Today";if(d===1)return "Yesterday";if(d<14)return d+" days ago";if(d<60)return Math.floor(d/7)+" weeks ago";return new Date(iso+"T00:00:00").toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"})}
+function isNew(j){return days(j.posted||j.first_seen)<=7}
+function ctry(j){return j.countries.map(function(c){return COUNTRIES[c]||c}).join(", ")}
+function safeUrl(u){return /^https?:\/\//i.test(u||"")?u:"#"}
+function hasTypes(){for(var k in state.types){if(state.types[k])return true}return false}
+function anyFilter(){return !!(state.q||state.country||state.sector||state.cat||hasTypes()||state.onlyNew)}
+function matches(j){
+  if(state.country&&j.countries.indexOf(state.country)<0)return false;
+  if(state.sector&&j.sector!==state.sector)return false;
+  if(state.cat&&catOf(j)!==state.cat)return false;
+  if(hasTypes()&&!state.types[j.type])return false;
+  if(state.onlyNew&&!isNew(j))return false;
+  if(state.q){var h=(j.title+" "+j.company+" "+j.location).toLowerCase();var p=state.q.split(/\s+/);for(var i=0;i<p.length;i++){if(p[i]&&h.indexOf(p[i])<0)return false}}
+  return true;
 }
-
-function render() {
-  const list = $("jobs"); list.replaceChildren();
-  const rows = DATA.jobs.filter(j =>
-    (!state.country || j.countries.includes(state.country)) &&
-    (!state.sector || j.sector === state.sector) && (!state.cat || catOf(j) === state.cat) &&
-    (!state.types.size || state.types.has(j.type)) &&
-    (!state.onlyNew || daysAgo(j.first_seen) <= 7) &&
-    (!state.q || `${j.title} ${j.company} ${j.location}`.toLowerCase().includes(state.q)));
-
-  if (!DATA.updated) {
-    $("count").textContent = "";
-    list.append(el("li", {class:"empty"}, el("strong", {text:"No data yet. "}),
-      "Run the “update-jobs” workflow once (Actions tab on GitHub) or run python scraper/jobboard.py, then reload this page."));
-    return;
-  }
-  $("count").textContent = `${rows.length} offer${rows.length === 1 ? "" : "s"} · updated ${DATA.updated.slice(0, 10)}`;
-  if (!rows.length) {
-    list.append(el("li", {class:"empty"}, "No offers match these filters. Clear a filter or try a different search."));
-    return;
-  }
-  for (const j of rows.slice(0, 400)) {
-    const title = el("h2", {text:j.title});
-    if (daysAgo(j.first_seen) <= 7) title.append(el("span", {class:"badge-new", text:"New"}));
-    const a = el("a", {class:"job", href:j.url, target:"_blank", rel:"noopener noreferrer", style:`--c:var(--${j.type})`},
-      el("div", {}, title, el("div", {class:"sub", text:`${j.company} · ${j.location}`})),
-      el("div", {class:"side"}, el("div", {class:"tag", text:TYPES[j.type]}), el("div", {text:fmt(j.posted || j.first_seen)})));
-    list.append(el("li", {}, a));
-  }
-  if (rows.length > 400) list.append(el("li", {class:"meta", text:`Showing the 400 most recent of ${rows.length}. Narrow the filters to see the rest.`}));
+function card(j){
+  var li=el("li");var a=el("a","card");a.href="#job-"+j.id;a.style.setProperty("--c","var(--"+j.type+")");
+  a.appendChild(avatar(j.company));
+  var main=el("div");main.appendChild(el("h2",null,j.title));main.appendChild(el("div","sub",j.company+" · "+j.location));
+  var tags=el("div","tags");tags.appendChild(el("span","tag type",TYPES[j.type]));tags.appendChild(el("span","tag",CATS[catOf(j)]));tags.appendChild(el("span","tag",ctry(j)));
+  main.appendChild(tags);a.appendChild(main);
+  var side=el("div","side");if(isNew(j))side.appendChild(el("span","new","NEW"));
+  side.appendChild(el("span",null,ago(j.posted||j.first_seen)));
+  var go=el("span","go");go.innerHTML=ICON.arrow;side.appendChild(go);a.appendChild(side);li.appendChild(a);return li;
 }
-
-function renderCompanies() {
-  const body = $("companies"); body.replaceChildren();
-  for (const c of DATA.companies) {
-    const covered = !!c.ats;
-    body.append(el("tr", {},
-      el("td", {text:c.name}),
-      el("td", {text:SECTORS[c.sector] || c.sector}),
-      el("td", {class:covered ? "ok" : "todo", text:covered ? `Tracked (${c.ats})` : "Check manually"}),
-      el("td", {text:covered ? String(c.jobs) : "–"}),
-      el("td", {}, el("a", {href:c.search_url, target:"_blank", rel:"noopener noreferrer", text:"Search careers"}))));
-  }
-  if (!DATA.companies.length) body.append(el("tr", {}, el("td", {colspan:"5", text:"No data yet."})));
+function render(){
+  var list=$("jobs");list.textContent="";
+  $("clear").hidden=!anyFilter();
+  if(!DATA.updated){$("count").textContent="";var e=el("li","empty");e.appendChild(el("strong",null,"No data yet. "));e.appendChild(document.createTextNode("Run the update workflow once, then reload."));list.appendChild(e);return}
+  var rows=DATA.jobs.filter(matches);
+  $("count").textContent=rows.length+" role"+(rows.length===1?"":"s")+(anyFilter()?" match your filters":" open now");
+  if(!rows.length){var n=el("li","empty");n.appendChild(el("strong",null,"Nothing matches these filters. "));n.appendChild(document.createTextNode("Try removing one, or search for something broader."));list.appendChild(n);return}
+  rows.slice(0,250).forEach(function(j){list.appendChild(card(j))});
+  if(rows.length>250){list.appendChild(el("li","meta","Showing the 250 most recent. Narrow the filters to see the rest."))}
 }
-
-function initTabs() {
-  const pick = (name) => {
-    for (const t of ["offers", "companies"]) {
-      $("tab-" + t).setAttribute("aria-selected", t === name);
-      $("panel-" + t).hidden = t !== name;
-    }
-  };
-  $("tab-offers").onclick = () => pick("offers");
-  $("tab-companies").onclick = () => pick("companies");
+function updateChipState(){
+  var chips=document.querySelectorAll("#chips .chip");
+  for(var i=0;i<chips.length;i++){var c=chips[i];var k=c.getAttribute("data-k");var on=k==="new"?state.onlyNew:!!state.types[k];c.setAttribute("aria-pressed",on?"true":"false")}
 }
-
-initFilters(); initTabs();
-fetch("jobs.json", {cache:"no-cache"}).then(r => r.json()).then(d => { DATA = d; render(); renderCompanies(); })
-  .catch(() => {
-    $("jobs").append(el("li", {class:"empty"}, el("strong", {text:"Could not load jobs.json. "}),
-      "Open this page from GitHub Pages or a local server (python -m http.server in the docs folder), not by double-clicking the file."));
+function buildFilters(){
+  var k;
+  for(k in COUNTRIES){var o=el("option",null,COUNTRIES[k]);o.value=k;$("country").appendChild(o)}
+  for(k in SECTORS){var o2=el("option",null,SECTORS[k]);o2.value=k;$("sector").appendChild(o2)}
+  for(k in CATS){var o3=el("option",null,CATS[k]);o3.value=k;$("cat").appendChild(o3)}
+  var counts={};DATA.jobs.forEach(function(j){counts[j.type]=(counts[j.type]||0)+1});
+  var box=$("chips");
+  Object.keys(TYPES).forEach(function(t){
+    var b=el("button","chip");b.type="button";b.setAttribute("data-k",t);b.setAttribute("aria-pressed","false");b.style.setProperty("--c","var(--"+t+")");
+    b.appendChild(el("i"));b.appendChild(document.createTextNode(TYPES[t]+" "));b.appendChild(el("small",null,String(counts[t]||0)));
+    b.onclick=function(){state.types[t]=!state.types[t];updateChipState();render()};box.appendChild(b);
   });
+  var nb=el("button","chip");nb.type="button";nb.setAttribute("data-k","new");nb.setAttribute("aria-pressed","false");nb.appendChild(el("i"));nb.appendChild(document.createTextNode("New this week"));
+  nb.onclick=function(){state.onlyNew=!state.onlyNew;updateChipState();render()};box.appendChild(nb);
+  $("q").oninput=function(e){state.q=e.target.value.trim().toLowerCase();render()};
+  $("country").onchange=function(e){state.country=e.target.value;render()};
+  $("sector").onchange=function(e){state.sector=e.target.value;render()};
+  $("cat").onchange=function(e){state.cat=e.target.value;render()};
+  $("clear").onclick=function(){state.q="";state.country="";state.sector="";state.cat="";state.types={};state.onlyNew=false;$("q").value="";$("country").value="";$("sector").value="";$("cat").value="";updateChipState();render()};
+}
+function isHead(l,next){return l.indexOf("• ")!==0&&l.length<=70&&!/[.;,!?]$/.test(l)&&l.split(" ").length<=10&&(!next||!next.trim()||next.trim().indexOf("• ")===0)}
+function renderLines(box,lines){
+  var ul=null;
+  for(var i=0;i<lines.length;i++){
+    var l=lines[i].trim();
+    if(!l){ul=null;continue}
+    if(l.indexOf("• ")===0){if(!ul){ul=el("ul");box.appendChild(ul)}ul.appendChild(el("li",null,l.slice(2)));continue}
+    ul=null;
+    if(isHead(l,lines[i+1])){box.appendChild(el("h4",null,l.replace(/:$/,"")))}else{box.appendChild(el("p",null,l))}
+  }
+}
+function extractReq(text){
+  var lines=text.split("\n"),out=[],on=false;
+  for(var i=0;i<lines.length;i++){
+    var l=lines[i].trim();
+    if(!on){if(l&&l.length<=80&&REQ_HEAD.test(l))on=true;continue}
+    if(!l)continue;
+    if(out.length&&isHead(l,lines[i+1]))break;
+    out.push(l);
+    if(out.length>=14)break;
+  }
+  return out;
+}
+function companyInfo(name){for(var i=0;i<DATA.companies.length;i++){if(DATA.companies[i].name===name)return DATA.companies[i]}return null}
+function fact(label,value){var f=el("div","fact");f.appendChild(el("span",null,label));f.appendChild(el("b",null,value));return f}
+function buildDrawer(j){
+  var box=$("dscroll");box.textContent="";box.style.setProperty("--c","var(--"+j.type+")");
+  var head=el("div","dhead");head.appendChild(avatar(j.company));
+  var t=el("div");var h=el("h2",null,j.title);h.id="d-title";t.appendChild(h);t.appendChild(el("div","sub",j.company+" · "+j.location));
+  var tags=el("div","tags");var tt=el("span","tag type",TYPES[j.type]);tt.style.setProperty("--c","var(--"+j.type+")");tags.appendChild(tt);tags.appendChild(el("span","tag",CATS[catOf(j)]));tags.appendChild(el("span","tag",SECTORS[j.sector]||j.sector));
+  t.appendChild(tags);head.appendChild(t);box.appendChild(head);
+  var act=el("div","actions");
+  var ap=el("a","btn primary","Apply on "+j.company+"'s site ");ap.href=safeUrl(j.url);ap.target="_blank";ap.rel="noopener noreferrer";ap.insertAdjacentHTML("beforeend",ICON.ext);act.appendChild(ap);
+  var sh=el("button","btn","Copy link");sh.type="button";
+  sh.onclick=function(){var done=function(){sh.textContent="Link copied";setTimeout(function(){sh.textContent="Copy link"},1800)};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(location.href).then(done,done)}else{done()}};
+  act.appendChild(sh);box.appendChild(act);
+  var f=el("div","facts");
+  f.appendChild(fact("Location",j.location));f.appendChild(fact("Contract",TYPES[j.type]));f.appendChild(fact("Area",CATS[catOf(j)]));
+  f.appendChild(fact("Posted",ago(j.posted||j.first_seen)||"Recently"));f.appendChild(fact("Country",ctry(j)));f.appendChild(fact("Published via",(SRC[j.source]||j.source)));
+  box.appendChild(f);
+  var req=j.desc?extractReq(j.desc):[];
+  if(req.length){var rs=el("section","sec req");rs.appendChild(el("h3",null,"Requirements at a glance"));var rp=el("div","prose");renderLines(rp,req);rs.appendChild(rp);box.appendChild(rs)}
+  var ds=el("section","sec");ds.appendChild(el("h3",null,"About the role"));
+  if(j.desc){var dp=el("div","prose");renderText(dp,j.desc);ds.appendChild(dp)}
+  else{ds.appendChild(el("p",null,"The employer's posting text is not available here. Open the original posting to read the full description and requirements."))}
+  var nt=el("p","note","Text as published by the employer, possibly shortened. ");
+  var ol=el("a",null,"Read the original posting");ol.href=safeUrl(j.url);ol.target="_blank";ol.rel="noopener noreferrer";nt.appendChild(ol);ds.appendChild(nt);box.appendChild(ds);
+  var others=DATA.jobs.filter(function(x){return x.company===j.company});
+  var cs=el("section","sec");cs.appendChild(el("h3",null,"About "+j.company));
+  var row=el("div","corow");row.appendChild(avatar(j.company,"sm"));
+  row.appendChild(el("div","sub",(SECTORS[j.sector]||"")+" · "+others.length+" open early-career role"+(others.length===1?"":"s")+" listed here"));cs.appendChild(row);
+  var cb=el("div","btns");
+  if(others.length>1){var all=el("button","btn","See all "+others.length+" roles");all.type="button";all.onclick=function(){state.q=j.company.toLowerCase();$("q").value=j.company;history.replaceState(null,"",location.pathname+location.search);hideJob();render();window.scrollTo({top:0,behavior:"smooth"})};cb.appendChild(all)}
+  var info=companyInfo(j.company);
+  if(info&&info.search_url){var cl=el("a","btn","Company careers search ");cl.href=safeUrl(info.search_url);cl.target="_blank";cl.rel="noopener noreferrer";cl.insertAdjacentHTML("beforeend",ICON.ext);cb.appendChild(cl)}
+  cs.appendChild(cb);
+  var rest=others.filter(function(x){return x.id!==j.id}).slice(0,5);
+  if(rest.length){var ml=el("ul","more");rest.forEach(function(x){var li=el("li");var a=el("a");a.href="#job-"+x.id;a.appendChild(el("b",null,x.title));a.appendChild(el("div","sub",x.location+" · "+TYPES[x.type]));li.appendChild(a);ml.appendChild(li)});cs.appendChild(el("p","note","More at "+j.company));cs.appendChild(ml)}
+  box.appendChild(cs);
+  var da=$("dapply");da.href=safeUrl(j.url);da.textContent="Apply on "+j.company+" ";da.insertAdjacentHTML("beforeend",ICON.ext);
+}
+function renderText(box,text){renderLines(box,text.split("\n"))}
+function showJob(id){
+  var j=BYID[id];if(!j){hideJob();return}
+  var d=$("drawer");if(!d.classList.contains("open"))lastFocus=document.activeElement;
+  buildDrawer(j);
+  $("overlay").classList.add("open");d.classList.add("open");d.setAttribute("aria-hidden","false");document.body.style.overflow="hidden";
+  $("dscroll").scrollTop=0;document.title=j.title+" · "+j.company+" — Early careers in Europe";
+  setTimeout(function(){$("dclose").focus()},60);
+}
+function hideJob(){
+  var d=$("drawer");if(!d.classList.contains("open"))return;
+  d.classList.remove("open");d.setAttribute("aria-hidden","true");$("overlay").classList.remove("open");document.body.style.overflow="";document.title=BASE_TITLE;
+  if(lastFocus&&lastFocus.focus){lastFocus.focus();lastFocus=null}
+}
+function route(){var m=/^#job-(.+)$/.exec(location.hash);if(m){showJob(m[1])}else{hideJob()}}
+function closeJob(){if(/^#job-/.test(location.hash)){location.hash=""}else{hideJob()}}
+function selectTab(name){
+  var names=["offers","companies"];
+  for(var i=0;i<names.length;i++){$("tab-"+names[i]).setAttribute("aria-selected",names[i]===name?"true":"false");$("panel-"+names[i]).hidden=names[i]!==name}
+}
+function renderCompanies(){
+  var g=$("cgrid");g.textContent="";
+  DATA.companies.slice().sort(function(a,b){return (b.jobs||0)-(a.jobs||0)||a.name.localeCompare(b.name)}).forEach(function(c){
+    var d=el("div","co");var top=el("div","top");top.appendChild(avatar(c.name));
+    var t=el("div");t.appendChild(el("h3",null,c.name));t.appendChild(el("div","sub",SECTORS[c.sector]||c.sector));top.appendChild(t);d.appendChild(top);
+    var covered=!!c.ats;var st=el("div");st.appendChild(el("span","pill "+(covered?"ok":"todo"),covered?(c.jobs+" open role"+(c.jobs===1?"":"s")):"Browse on their site"));d.appendChild(st);
+    var b=el("div","btns");
+    if(c.jobs>0){var v=el("button","btn","View roles");v.type="button";v.onclick=function(){state.q=c.name.toLowerCase();$("q").value=c.name;selectTab("offers");render();window.scrollTo({top:0,behavior:"smooth"})};b.appendChild(v)}
+    var a=el("a","btn","Careers search ");a.href=safeUrl(c.search_url);a.target="_blank";a.rel="noopener noreferrer";a.insertAdjacentHTML("beforeend",ICON.ext);b.appendChild(a);d.appendChild(b);g.appendChild(d);
+  });
+}
+function init(){
+  var cos={};DATA.jobs.forEach(function(j){cos[j.company]=1});
+  $("st-offers").textContent=DATA.jobs.length;$("st-co").textContent=Object.keys(cos).length;
+  if(DATA.updated){$("st-upd").textContent=new Date(DATA.updated).toLocaleDateString("en-GB",{day:"numeric",month:"short"})}
+  buildFilters();renderCompanies();render();
+}
+$("tab-offers").onclick=function(){selectTab("offers")};
+$("tab-companies").onclick=function(){selectTab("companies")};
+$("dclose").onclick=closeJob;$("overlay").onclick=closeJob;
+document.addEventListener("keydown",function(e){if(e.key==="Escape")closeJob()});
+window.addEventListener("hashchange",route);
+fetch("jobs.json",{cache:"no-cache"}).then(function(r){return r.json()}).then(function(d){
+  DATA=d;DATA.jobs=d.jobs||[];DATA.companies=d.companies||[];DATA.jobs.forEach(function(j){BYID[j.id]=j});init();route();
+}).catch(function(){
+  var l=$("jobs");l.textContent="";var e=el("li","empty");e.appendChild(el("strong",null,"Could not load the offers. "));e.appendChild(document.createTextNode("Reload the page, or open it from the published site rather than as a local file."));l.appendChild(e);
+});
+})();
 </script>
 </body>
 </html>
