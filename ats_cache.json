@@ -1,19 +1,19 @@
 {
  "bioMérieux": {
   "ats": null,
-  "checked": "2026-11-03"
+  "checked": "2026-11-10"
  },
  "BNP Paribas": {
   "ats": null,
-  "checked": "2026-11-03"
+  "checked": "2026-11-10"
  },
  "Société Générale": {
   "ats": null,
-  "checked": "2026-11-03"
+  "checked": "2026-11-10"
  },
  "Mistral AI": {
   "ats": null,
-  "checked": "2026-11-03"
+  "checked": "2026-11-10"
  },
  "Doctolib": {
   "ats": "ashby",
@@ -33,19 +33,19 @@
  },
  "Criteo": {
   "ats": null,
-  "checked": "2026-11-03"
+  "checked": "2026-11-10"
  },
  "Siemens Healthineers": {
   "ats": null,
-  "checked": "2026-11-03"
+  "checked": "2026-11-10"
  },
  "Allianz": {
   "ats": null,
-  "checked": "2026-11-03"
+  "checked": "2026-11-10"
  },
  "SAP": {
   "ats": null,
-  "checked": "2026-11-03"
+  "checked": "2026-11-10"
  },
  "DeepL": {
   "ats": "ashby",
@@ -69,19 +69,19 @@
  },
  "Roche": {
   "ats": null,
-  "checked": "2026-11-03"
+  "checked": "2026-11-10"
  },
  "Straumann": {
   "ats": null,
-  "checked": "2026-11-03"
+  "checked": "2026-11-10"
  },
  "UBS": {
   "ats": null,
-  "checked": "2026-11-03"
+  "checked": "2026-11-10"
  },
  "Julius Baer": {
   "ats": null,
-  "checked": "2026-11-03"
+  "checked": "2026-11-10"
  },
  "Sensirion": {
   "ats": null,
@@ -93,7 +93,7 @@
  },
  "Boston Scientific": {
   "ats": null,
-  "checked": "2026-11-03"
+  "checked": "2026-11-10"
  },
  "Stripe": {
   "ats": "greenhouse",
@@ -105,15 +105,15 @@
  },
  "BGL BNP Paribas": {
   "ats": null,
-  "checked": "2026-11-03"
+  "checked": "2026-11-10"
  },
  "Clearstream": {
   "ats": null,
-  "checked": "2026-11-03"
+  "checked": "2026-11-10"
  },
  "European Investment Bank": {
   "ats": null,
-  "checked": "2026-11-03"
+  "checked": "2026-11-10"
  },
  "SES": {
   "ats": "greenhouse",
@@ -121,7 +121,7 @@
  },
  "PayPal": {
   "ats": null,
-  "checked": "2026-11-03"
+  "checked": "2026-11-10"
  },
  "Datadog": {
   "ats": "greenhouse",
@@ -129,7 +129,7 @@
  },
  "HubSpot": {
   "ats": null,
-  "checked": "2026-11-03"
+  "checked": "2026-11-10"
  },
  "Algolia": {
   "ats": "greenhouse",
